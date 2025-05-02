@@ -27,7 +27,7 @@ Reverse engineering and hacking a cheap smartwatch with the FR8016HA MCU.
       <b>RX & TX & GND PIN</b>
     </td>
     <td align="center">
-      <img src="screenshots/ss_3.jpg" alt="RESET PIN" width="300"/><br/>
+      <img src="screenshots/ss_2.jpg" alt="RESET PIN" width="300"/><br/>
       <b>RESET PIN(was connected to a resistor that i desolder it, you don't need too)</b>
     </td>
   </tr>

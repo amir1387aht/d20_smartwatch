@@ -1,1 +1,1 @@
-{"write_times": 62, "uart_baud": "115200", "boot_mode": true, "uart_port": "COM19"}
+{"write_times": 62, "uart_baud": "115200", "uart_port": "COM19", "boot_mode": true}
