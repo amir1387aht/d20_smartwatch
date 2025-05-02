@@ -1,0 +1,130 @@
+{
+  "name": "ble_simple_peripehral",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    "../../code",
+    "../../../../../components/ble/profiles/ble_simple_profile",
+    "../../../../../components/modules/button",
+    "../../../../../components/modules/platform",
+    "../../../../../components/modules/patch",
+    "../../../../../components/driver"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": []
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "c632501b9d3ee5e3da506e92dc611ba0"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [
+        "../../../../../components/toolchain",
+        "../../../../../components/modules/adpcm_ima",
+        "../../../../../components/modules/adpcm_ima_fangtang",
+        "../../../../../components/modules/adpcm_ms",
+        "../../../../../components/modules/aes",
+        "../../../../../components/modules/aes_cbc",
+        "../../../../../components/modules/audio_code_adpcm",
+        "../../../../../components/modules/audio_code_sbc",
+        "../../../../../components/modules/audio_decode",
+        "../../../../../components/modules/audio_encode",
+        "../../../../../components/modules/decoder",
+        "../../../../../components/modules/FreeRTOS",
+        "../../../../../components/modules/gif",
+        "../../../../../components/modules/md5",
+        "../../../../../components/modules/peripherals",
+        "../../../../../components/modules/RingBuffer",
+        "../../../../../components/modules/sha256",
+        "../../../../../components/modules/sys",
+        "../../../../../components/modules/os",
+        "../../../../../components/modules/lowpow",
+        "../../../../../components/modules/crc32",
+        "../../../../../components/modules/common",
+        "../../../../../components/modules/platform/source/app_boot_vectors.s",
+        "../../../../../components/modules/platform/source/core_cm3_isr.c",
+        "../../../../../components/driver/IR"
+      ],
+      "toolchain": "GCC",
+      "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "ldscript.ld",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "null",
+          "cpuName": "null"
+        },
+        "proType": 1,
+        "speed": 8000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../../../../../components/ble/include",
+          "../../../../../components/ble/include/gap",
+          "../../../../../components/ble/include/gatt",
+          "../../../../../components/ble/profiles/ble_simple_profile",
+          "../../../../../components/driver/include",
+          "../../../../../components/modules/button",
+          "../../../../../components/modules/common/include",
+          "../../../../../components/modules/lowpow/include",
+          "../../../../../components/modules/os/include",
+          "../../../../../components/modules/platform/include",
+          "../../../../../components/modules/sys/include",
+          "../../code"
+        ],
+        "libList": [
+          "../../../../../components/ble/library"
+        ],
+        "defineList": []
+      },
+      "builderOptions": {
+        "GCC": {
+          "version": 5,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [],
+          "global": {
+            "$float-abi-type": "softfp",
+            "output-debug-info": "enable",
+            "misc-control": "--specs=nosys.specs --specs=nano.specs"
+          },
+          "c/cpp-compiler": {
+            "language-c": "c11",
+            "language-cpp": "c++11",
+            "optimization": "level-debug",
+            "warnings": "all-warnings",
+            "one-elf-section-per-function": true,
+            "one-elf-section-per-data": true
+          },
+          "asm-compiler": {},
+          "linker": {
+            "output-format": "elf",
+            "remove-unused-input-sections": true,
+            "LIB_FLAGS": "-lm -lfr8010h_stack",
+            "$toolName": "auto",
+            "LD_FLAGS": "-Wl,-Tsyscall_gcc.txt"
+          }
+        }
+      }
+    }
+  },
+  "version": "3.5"
+}
