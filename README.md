@@ -4,7 +4,7 @@ Reverse engineering and hacking a cheap smartwatch with the FR8016HA MCU.
 
 <b>For bitmaps: </b>You can show bitmaps using `gfx_draw_rgb_bitmap` function and for generating bitmaps you can use `https://notisrac.github.io/FileToCArray/` tool with `16bit BBBBBGGGGGGRRRRR (2byte/pixel)` color order
 
-<b>Youtube Video: </b>You can watch the demo at this video
+<b>Youtube Video: </b>You can watch the demo at this link : https://youtu.be/pE7-zYZyz54?si=ffM0lHZJqVE9Hfgv
 
 ---
 
