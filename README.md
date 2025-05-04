@@ -14,7 +14,7 @@ Reverse engineering and hacking a cheap smartwatch with the FR8016HA MCU.
 
 1. Connect the **GND**, **TX**, **RX** pins to a UART converter.
 2. Run `sdk/FR801xH-master/tools/FR8010H_Download_Tool.exe` and set your UART converter port and baudrate
-   and also set the Bin file(the button contains `DAT` text) after that click on connect button(top right)
+   and also set the Bin file(the button contains `DAT` text)(you can upload aa demo file that is in projects folder) after that click on connect button(top right)
 3. Trigger your mcu reset pin by connecting it to vcc(you can use a simple push button to trigger it), after that make it float
 4. Click the one left to the last button to upload the firmware
 
