@@ -58,6 +58,7 @@ build/d20_smartwatch/proj_main.c.o: ../code/proj_main.c \
  ../../../components/modules/os/include/os_msg_q.h \
  ../code/display/display.h \
  ../../../components/driver/include/driver_ssp.h ../code/display/gfx.h \
+ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/math.h \
  ../code/fonts/FreeMono9pt7b.h ../code/utils/utils.h
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/stdio.h:
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/_ansi.h:
@@ -122,5 +123,6 @@ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-
 ../code/display/display.h:
 ../../../components/driver/include/driver_ssp.h:
 ../code/display/gfx.h:
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/math.h:
 ../code/fonts/FreeMono9pt7b.h:
 ../code/utils/utils.h:

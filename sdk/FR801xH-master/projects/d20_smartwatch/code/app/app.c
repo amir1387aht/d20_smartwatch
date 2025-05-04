@@ -1,5 +1,4 @@
 #include "app/app.h"
-#include <stdio.h>
 
 #define CIRCLE_RADIUS    60
 
@@ -64,7 +63,7 @@ static void draw_indicator(int cx, int cy) {
     gfx_draw_line(cx, y0, cx, y1, ST77XX_BLACK);
 }
 
-// Draw one needle, 3 px thick
+// Draw one needle, 3 px thick
 static void draw_thick_needle(int cx, int cy, int idx, uint16_t color) {
     int bx = cx + base_dx[idx], by = cy + base_dy[idx];
     int tx = cx + tip_dx[idx],  ty = cy + tip_dy[idx];
@@ -138,8 +137,11 @@ void app_update(void) {
         // Clear previous score area
         if(num_needles != num_needles_cache) {
             gfx_fill_rect(0, 0, 30, 30, ST77XX_WHITE);
+            
+            // Replace int_to_str with sprintf
             char score_str[4];
-            int_to_str(num_needles, score_str);
+            sprintf(score_str, "%d", num_needles);
+            
             gfx_set_cursor(5, 15);
             gfx_print(score_str);
             num_needles_cache = num_needles;

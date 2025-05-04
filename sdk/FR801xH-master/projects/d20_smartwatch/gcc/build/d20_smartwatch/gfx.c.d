@@ -40,6 +40,7 @@ build/d20_smartwatch/gfx.c.o: ../code/display/gfx.c ../code/display/gfx.h \
  ../../../components/modules/os/include/os_task.h \
  ../../../components/modules/os/include/os_msg_q.h \
  ../../../components/driver/include/driver_ssp.h \
+ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/math.h \
  ../../../components/modules/os/include/os_mem.h \
  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/string.h \
  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/sys/_locale.h \
@@ -89,6 +90,7 @@ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-
 ../../../components/modules/os/include/os_task.h:
 ../../../components/modules/os/include/os_msg_q.h:
 ../../../components/driver/include/driver_ssp.h:
+C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/math.h:
 ../../../components/modules/os/include/os_mem.h:
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/string.h:
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/sys/_locale.h:

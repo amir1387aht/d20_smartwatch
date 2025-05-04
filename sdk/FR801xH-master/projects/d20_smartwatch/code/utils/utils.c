@@ -45,34 +45,3 @@ void delay_ms(uint32_t ms)
 {
     co_delay_100us(ms * 10);
 }
-
-void int_to_str(int val, char *buf) {
-    int i = 0, j;
-    bool neg = false;
-
-    if (val == 0) {
-        buf[i++] = '0';
-    } else {
-        if (val < 0) {
-            neg = true;
-            val = -val;
-        }
-
-        while (val > 0) {
-            buf[i++] = (val % 10) + '0';
-            val /= 10;
-        }
-
-        if (neg) {
-            buf[i++] = '-';
-        }
-    }
-
-    // Reverse the string
-    buf[i] = '\0';
-    for (j = 0; j < i / 2; j++) {
-        char tmp = buf[j];
-        buf[j] = buf[i - 1 - j];
-        buf[i - 1 - j] = tmp;
-    }
-}

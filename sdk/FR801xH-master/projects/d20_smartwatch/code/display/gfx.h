@@ -3,6 +3,9 @@
 
 #include "display/display.h"
 #include <stdlib.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <math.h>
 #include "os_mem.h"
 
 // First, the GFXglyph structure should be defined to match your font data:
@@ -24,20 +27,47 @@ typedef struct {
     uint8_t         yAdvance; // Newline distance (typically height)
 } GFXfont;
 
+// Color constants for common colors (in RGB565 format)
+#define GFX_BLACK       0x0000      // 0, 0, 0
+#define GFX_NAVY        0x000F      // 0, 0, 128
+#define GFX_DARKGREEN   0x03E0      // 0, 128, 0
+#define GFX_DARKCYAN    0x03EF      // 0, 128, 128
+#define GFX_MAROON      0x7800      // 128, 0, 0
+#define GFX_PURPLE      0x780F      // 128, 0, 128
+#define GFX_OLIVE       0x7BE0      // 128, 128, 0
+#define GFX_LIGHTGREY   0xC618      // 192, 192, 192
+#define GFX_DARKGREY    0x7BEF      // 128, 128, 128
+#define GFX_BLUE        0x001F      // 0, 0, 255
+#define GFX_GREEN       0x07E0      // 0, 255, 0
+#define GFX_CYAN        0x07FF      // 0, 255, 255
+#define GFX_RED         0xF800      // 255, 0, 0
+#define GFX_MAGENTA     0xF81F      // 255, 0, 255
+#define GFX_YELLOW      0xFFE0      // 255, 255, 0
+#define GFX_WHITE       0xFFFF      // 255, 255, 255
+#define GFX_ORANGE      0xFD20      // 255, 165, 0
+
 // Init
 void gfx_init(uint16_t width, uint16_t height, uint8_t rotation);
+
+// Display rotation and orientation functions
+void gfx_set_rotation(uint8_t rotation);
+uint8_t gfx_get_rotation(void);
+int16_t gfx_get_width(void);
+int16_t gfx_get_height(void);
 
 // Bitmap functions
 void gfx_draw_bitmap(int16_t x, int16_t y, const uint8_t *bitmap, int16_t w, int16_t h, uint16_t color);
 void gfx_draw_bitmap_bg(int16_t x, int16_t y, const uint8_t *bitmap, int16_t w, int16_t h, uint16_t color, uint16_t bg);
 void gfx_draw_rgb_bitmap(int16_t x, int16_t y, const uint16_t *bitmap, int16_t w, int16_t h);
 void gfx_draw_rgb_bitmap_with_mask(int16_t x, int16_t y, const uint16_t *bitmap, const uint8_t *mask, int16_t w, int16_t h);
+void gfx_draw_scaled_bitmap(int16_t x, int16_t y, const uint8_t *bitmap, int16_t w, int16_t h, int16_t scale, uint16_t color);
 
 // Basic drawing functions
 void gfx_draw_pixel(int16_t x, int16_t y, uint16_t color);
 void gfx_draw_line(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);
 void gfx_draw_fast_v_line(int16_t x, int16_t y, int16_t h, uint16_t color);
 void gfx_draw_fast_h_line(int16_t x, int16_t y, int16_t w, uint16_t color);
+void gfx_draw_dashed_line(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color, uint8_t dash_len, uint8_t gap_len);
 
 // Rectangle functions
 void gfx_draw_rect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);
@@ -51,26 +81,46 @@ void gfx_fill_circle(int16_t x0, int16_t y0, int16_t r, uint16_t color);
 void gfx_draw_circle_helper(int16_t x0, int16_t y0, int16_t r, uint8_t cornername, uint16_t color);
 void gfx_fill_circle_helper(int16_t x0, int16_t y0, int16_t r, uint8_t cornername, int16_t delta, uint16_t color);
 
+// Arc functions
+void gfx_draw_arc(int16_t x0, int16_t y0, int16_t r, int16_t start_angle, int16_t end_angle, uint16_t color);
+void gfx_fill_arc(int16_t x0, int16_t y0, int16_t r, int16_t start_angle, int16_t end_angle, uint16_t color);
+
+// Ellipse functions
+void gfx_draw_ellipse(int16_t x0, int16_t y0, int16_t rx, int16_t ry, uint16_t color);
+void gfx_fill_ellipse(int16_t x0, int16_t y0, int16_t rx, int16_t ry, uint16_t color);
+
 // Triangle functions
 void gfx_draw_triangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);
 void gfx_fill_triangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);
 
-// Set rotation
-void gfx_set_rotation(uint8_t rotation);
+// Polygon functions
+void gfx_draw_polygon(int16_t *points, uint8_t num_points, uint16_t color);
+void gfx_fill_polygon(int16_t *points, uint8_t num_points, uint16_t color);
 
 // Fill the screen
 void gfx_fill_screen(uint16_t color);
+void gfx_clear(void);
 
 // Text functions
 void gfx_set_font(const GFXfont *f);
+const GFXfont* gfx_get_current_font(void);
 void gfx_set_text_size(uint8_t s);
+uint8_t gfx_get_text_size(void);
 void gfx_set_text_color(uint16_t c);
 void gfx_set_text_color_bg(uint16_t c, uint16_t bg);
 void gfx_set_text_wrap(bool w);
+bool gfx_get_text_wrap(void);
 void gfx_set_cursor(int16_t x, int16_t y);
+int16_t gfx_get_cursor_x(void);
+int16_t gfx_get_cursor_y(void);
 void gfx_get_text_bounds(const char *str, int16_t x, int16_t y, int16_t *x1, int16_t *y1, uint16_t *w, uint16_t *h);
 void gfx_print(const char *str);
+void gfx_println(const char *str);
 void gfx_write_char(char c);
 int16_t gfx_draw_char(int16_t x, int16_t y, unsigned char c, uint16_t color, uint16_t bg, uint8_t size);
+
+// Scrolling functions
+void gfx_scroll_up(uint16_t lines, uint16_t bg_color);
+void gfx_scroll_down(uint16_t lines, uint16_t bg_color);
 
 #endif // GFX_H

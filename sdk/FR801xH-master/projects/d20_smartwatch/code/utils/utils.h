@@ -12,6 +12,5 @@ void device_vibrate(int count);
 void device_led_blank(int count);
 bool read_button_state();
 void delay_ms(uint32_t ms);
-void int_to_str(int val, char *buf);
 
 #endif // UTILS_H

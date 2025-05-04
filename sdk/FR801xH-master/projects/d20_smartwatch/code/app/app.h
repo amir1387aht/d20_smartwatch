@@ -7,6 +7,9 @@
 #include "display/display.h"
 #include "display/gfx.h"
 #include "fonts/FreeMono9pt7b.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 
 #ifdef __cplusplus
 extern "C"

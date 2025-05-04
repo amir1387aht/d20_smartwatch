@@ -18,6 +18,9 @@ MEMORY
   RAM (xrw)     : ORIGIN = 0x20000B60, LENGTH = 0xB4A0
 }
 
+__heap_start__ = ALIGN(_end_noinit + 4, 8);  /* Align to 8-byte boundary */
+__heap_end__ = ORIGIN(RAM) + LENGTH(RAM);
+
 /* 
  * The entry point is informative, for debuggers and simulators,
  * since the Cortex-M vector points to it anyway.
