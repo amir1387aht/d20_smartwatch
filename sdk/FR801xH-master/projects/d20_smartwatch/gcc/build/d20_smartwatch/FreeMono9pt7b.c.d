@@ -42,11 +42,11 @@ build/d20_smartwatch/FreeMono9pt7b.c.o: ../code/fonts/FreeMono9pt7b.c \
  ../../../components/modules/os/include/os_msg_q.h \
  ../../../components/driver/include/driver_ssp.h \
  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/math.h \
- ../../../components/modules/os/include/os_mem.h \
  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/string.h \
  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/sys/_locale.h \
  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/strings.h \
- C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/sys/string.h
+ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/sys/string.h \
+ ../../../components/modules/os/include/os_mem.h
 ../code/fonts/FreeMono9pt7b.h:
 ../code/display/gfx.h:
 ../code/display/display.h:
@@ -93,8 +93,8 @@ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-
 ../../../components/modules/os/include/os_msg_q.h:
 ../../../components/driver/include/driver_ssp.h:
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/math.h:
-../../../components/modules/os/include/os_mem.h:
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/string.h:
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/sys/_locale.h:
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/strings.h:
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/sys/string.h:
+../../../components/modules/os/include/os_mem.h:

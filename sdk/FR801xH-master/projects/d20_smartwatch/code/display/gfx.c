@@ -44,7 +44,23 @@ void gfx_set_text_wrap(bool w) {
 // Set cursor position
 void gfx_set_cursor(int16_t x, int16_t y) {
     _cursor_x = x;
-    _cursor_y = y;
+    _cursor_y = y + _font->yAdvance * _text_size;
+
+}
+
+void gfx_draw_text(int16_t x, int16_t y, const char *str, uint16_t color) {
+    uint16_t orig_color = _text_color;
+    int16_t orig_x = _cursor_x;
+    int16_t orig_y = _cursor_y;
+    
+    _text_color = color;
+    gfx_set_cursor(x, y);
+    gfx_print(str);
+    
+    // Restore original state
+    _text_color = orig_color;
+    _cursor_x = orig_x;
+    _cursor_y = orig_y;
 }
 
 // Draw a single character
@@ -984,74 +1000,4 @@ void gfx_fill_polygon(int16_t *points, uint8_t num_points, uint16_t color) {
     }
     
     os_free(nodes);
-}
-
-// Scrolling functions
-void gfx_scroll_up(uint16_t lines, uint16_t bg_color) {
-    if (lines <= 0 || lines >= _height) {
-        gfx_fill_screen(bg_color);
-        return;
-    }
-    
-    // Create a buffer to store the rows
-    uint16_t *buffer = (uint16_t *)os_malloc(_width * sizeof(uint16_t));
-    if (!buffer) return;
-    
-    // For each row, copy data from the row below it
-    for (int16_t y = 0; y < _height - lines; y++) {
-        // Read row from below
-        for (int16_t x = 0; x < _width; x++) {
-            // This should be replaced with actual display_read_pixel function
-            // buffer[x] = display_read_pixel(x, y + lines);
-            // Since we don't have access to read pixels, this might be a limitation
-            buffer[x] = 0; // Default value
-        }
-        
-        // Write to current row
-        display_fill_window(0, y, _width - 1, y, buffer, _width);
-    }
-    
-    // Fill the bottom rows with background color
-    for (int16_t y = _height - lines; y < _height; y++) {
-        for (int16_t x = 0; x < _width; x++) {
-            buffer[x] = bg_color;
-        }
-        display_fill_window(0, y, _width - 1, y, buffer, _width);
-    }
-    
-    os_free(buffer);
-}
-
-void gfx_scroll_down(uint16_t lines, uint16_t bg_color) {
-    if (lines <= 0 || lines >= _height) {
-        gfx_fill_screen(bg_color);
-        return;
-    }
-    
-    // Create a buffer to store the rows
-    uint16_t *buffer = (uint16_t *)os_malloc(_width * sizeof(uint16_t));
-    if (!buffer) return;
-    
-    // For each row, copy data from the row above it
-    for (int16_t y = _height - 1; y >= lines; y--) {
-        // Read row from above
-        for (int16_t x = 0; x < _width; x++) {
-            // This should be replaced with actual display_read_pixel function
-            // buffer[x] = display_read_pixel(x, y - lines);
-            buffer[x] = 0; // Default value
-        }
-        
-        // Write to current row
-        display_fill_window(0, y, _width - 1, y, buffer, _width);
-    }
-    
-    // Fill the top rows with background color
-    for (int16_t y = 0; y < lines; y++) {
-        for (int16_t x = 0; x < _width; x++) {
-            buffer[x] = bg_color;
-        }
-        display_fill_window(0, y, _width - 1, y, buffer, _width);
-    }
-    
-    os_free(buffer);
 }

@@ -1,4 +1,5 @@
-build/d20_smartwatch/gfx.c.o: ../code/display/gfx.c ../code/display/gfx.h \
+build/d20_smartwatch/FreeSans12pt7b.c.o: ../code/fonts/FreeSans12pt7b.c \
+ ../code/fonts/FreeSans12pt7b.h ../code/display/gfx.h \
  ../code/display/display.h ../code/config.h ../code/utils/utils.h \
  ../../../components/driver/include/driver_gpio.h \
  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/lib/gcc/arm-none-eabi/13.3.1/include/stdint.h \
@@ -46,6 +47,7 @@ build/d20_smartwatch/gfx.c.o: ../code/display/gfx.c ../code/display/gfx.h \
  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/strings.h \
  C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/sys/string.h \
  ../../../components/modules/os/include/os_mem.h
+../code/fonts/FreeSans12pt7b.h:
 ../code/display/gfx.h:
 ../code/display/display.h:
 ../code/config.h:

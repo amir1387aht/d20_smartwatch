@@ -81,7 +81,7 @@ void app_init(void) {
     gfx_set_text_color(ST77XX_BLACK);
     gfx_set_text_size(1);
     gfx_set_text_wrap(false);
-    gfx_set_cursor(5, 15);
+    gfx_set_cursor(5, 5);
 
     // Start with a clean white screen + big black circle + top indicator
     gfx_fill_screen(ST77XX_WHITE);
@@ -142,7 +142,7 @@ void app_update(void) {
             char score_str[4];
             sprintf(score_str, "%d", num_needles);
             
-            gfx_set_cursor(5, 15);
+            gfx_set_cursor(5, 5);
             gfx_print(score_str);
             num_needles_cache = num_needles;
         }
