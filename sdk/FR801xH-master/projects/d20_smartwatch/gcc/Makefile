@@ -58,7 +58,7 @@ PROJECT_INCLUDES += $(patsubst %,-I%,$(filter-out $(LIBS_DIR)/,$(ALL_LIBS_DIRS))
 INC_FOLDERS := $(SDK_INC_FOLDERS) $(PROJ_DIR) $(LIBS_DIR) $(filter-out $(PROJ_DIR)/ $(LIBS_DIR)/,$(ALL_PROJ_DIRS) $(ALL_LIBS_DIRS))
 
 # Libraries common to all targets
-LIB_FILES += -lfr8010h_stack
+LIB_FILES += -lfr8010h_stack -lm
 
 # Optimization flags
 OPT = -Os -g
@@ -85,6 +85,7 @@ LDFLAGS +=  -T$(LINKER_SCRIPT) -L$(SDK_ROOT)/components/ble/library
 LDFLAGS += $(SDK_ROOT)/components/ble/library/syscall_gcc.txt
 # let linker dump unused sections
 LDFLAGS += -Wl,--gc-sections
+LDFLAGS += -lm
 
 TEMPLATE_PATH := $(SDK_ROOT)/components/toolchain/gcc
 
