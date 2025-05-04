@@ -6,6 +6,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 #include <math.h>
+#include <string.h>
 #include "os_mem.h"
 
 // First, the GFXglyph structure should be defined to match your font data:
@@ -26,25 +27,6 @@ typedef struct {
     uint8_t         last;    // ASCII index of last character
     uint8_t         yAdvance; // Newline distance (typically height)
 } GFXfont;
-
-// Color constants for common colors (in RGB565 format)
-#define GFX_BLACK       0x0000      // 0, 0, 0
-#define GFX_NAVY        0x000F      // 0, 0, 128
-#define GFX_DARKGREEN   0x03E0      // 0, 128, 0
-#define GFX_DARKCYAN    0x03EF      // 0, 128, 128
-#define GFX_MAROON      0x7800      // 128, 0, 0
-#define GFX_PURPLE      0x780F      // 128, 0, 128
-#define GFX_OLIVE       0x7BE0      // 128, 128, 0
-#define GFX_LIGHTGREY   0xC618      // 192, 192, 192
-#define GFX_DARKGREY    0x7BEF      // 128, 128, 128
-#define GFX_BLUE        0x001F      // 0, 0, 255
-#define GFX_GREEN       0x07E0      // 0, 255, 0
-#define GFX_CYAN        0x07FF      // 0, 255, 255
-#define GFX_RED         0xF800      // 255, 0, 0
-#define GFX_MAGENTA     0xF81F      // 255, 0, 255
-#define GFX_YELLOW      0xFFE0      // 255, 255, 0
-#define GFX_WHITE       0xFFFF      // 255, 255, 255
-#define GFX_ORANGE      0xFD20      // 255, 165, 0
 
 // Init
 void gfx_init(uint16_t width, uint16_t height, uint8_t rotation);

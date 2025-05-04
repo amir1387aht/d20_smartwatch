@@ -1,5 +1,4 @@
 #include "display/gfx.h"
-#include <string.h>
 
 // Configuration
 static uint16_t _width;
