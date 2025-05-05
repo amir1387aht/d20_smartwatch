@@ -196,6 +196,10 @@ C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/
                               build/d20_smartwatch/gfx.c.o (cos)
 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-s_sin.o)
                               build/d20_smartwatch/gfx.c.o (sin)
+C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-s_lround.o)
+                              build/d20_smartwatch/gfx.c.o (lround)
+C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-sf_round.o)
+                              build/d20_smartwatch/gfx.c.o (roundf)
 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-k_cos.o)
                               C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-s_cos.o) (__kernel_cos)
 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-k_sin.o)
@@ -213,21 +217,23 @@ C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/
 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
                               build/d20_smartwatch/gfx.c.o (__aeabi_dmul)
 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
-                              build/d20_smartwatch/gfx.c.o (__aeabi_fmul)
+                              ../../../components/ble/library\libfr8010h_stack.a(sys_utils.o) (__aeabi_fmul)
 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
                               C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-s_cos.o) (__aeabi_dsub)
 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
-                              ../../../components/ble/library\libfr8010h_stack.a(sys_utils.o) (__aeabi_ddiv)
+                              build/d20_smartwatch/gfx.c.o (__aeabi_ddiv)
 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpdf2.o)
                               C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-e_rem_pio2.o) (__aeabi_dcmpeq)
 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
-                              build/d20_smartwatch/gfx.c.o (__aeabi_d2iz)
+                              C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-s_lround.o) (__aeabi_d2iz)
 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
                               ../../../components/ble/library\libfr8010h_stack.a(sys_utils.o) (__aeabi_d2f)
 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
                               ../../../components/ble/library\libfr8010h_stack.a(sys_utils.o) (__aeabi_fsub)
 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
-                              ../../../components/ble/library\libfr8010h_stack.a(sys_utils.o) (__aeabi_fdiv)
+                              build/d20_smartwatch/gfx.c.o (__aeabi_fdiv)
+C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+                              build/d20_smartwatch/gfx.c.o (__aeabi_f2iz)
 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-exit.o)
                               C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crt0.o (exit)
 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-findfp.o)
@@ -497,9 +503,7 @@ Discarded input sections
  .text.gfx_draw_dashed_line
                 0x00000000       0xe2 build/d20_smartwatch/gfx.c.o
  .text.gfx_draw_arc
-                0x00000000       0xd4 build/d20_smartwatch/gfx.c.o
- .text.gfx_fill_arc
-                0x00000000       0xd4 build/d20_smartwatch/gfx.c.o
+                0x00000000      0x224 build/d20_smartwatch/gfx.c.o
  .text.gfx_draw_ellipse
                 0x00000000      0x16e build/d20_smartwatch/gfx.c.o
  .text.gfx_fill_ellipse
@@ -3540,6 +3544,20 @@ Discarded input sections
  .debug_frame   0x00000000       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-s_sin.o)
  .ARM.attributes
                 0x00000000       0x2d C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-s_sin.o)
+ .text          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-s_lround.o)
+ .data          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-s_lround.o)
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-s_lround.o)
+ .text.lround   0x00000000       0x80 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-s_lround.o)
+ .debug_frame   0x00000000       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-s_lround.o)
+ .ARM.attributes
+                0x00000000       0x2d C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-s_lround.o)
+ .text          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-sf_round.o)
+ .data          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-sf_round.o)
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-sf_round.o)
+ .text.roundf   0x00000000       0x48 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-sf_round.o)
+ .debug_frame   0x00000000       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-sf_round.o)
+ .ARM.attributes
+                0x00000000       0x2d C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-sf_round.o)
  .text          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-k_cos.o)
  .data          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-k_cos.o)
  .bss           0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libm.a(libm_a-k_cos.o)
@@ -3630,6 +3648,14 @@ Discarded input sections
  .bss           0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
  .data          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
  .bss           0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .text          0x00000000       0x4c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .data          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .debug_line_str
+                0x00000000       0xca C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .debug_frame   0x00000000       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .ARM.attributes
+                0x00000000       0x1d C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
  .text          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-exit.o)
  .data          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-exit.o)
  .bss           0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-exit.o)
@@ -8751,620 +8777,620 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000     0x2c48
+.debug_aranges  0x00000000     0x2c40
  *(.debug_aranges)
  .debug_aranges
                 0x00000000       0x30 build/d20_smartwatch/app.c.o
  .debug_aranges
                 0x00000030       0x88 build/d20_smartwatch/display.c.o
  .debug_aranges
-                0x000000b8      0x1b0 build/d20_smartwatch/gfx.c.o
+                0x000000b8      0x1a8 build/d20_smartwatch/gfx.c.o
  .debug_aranges
-                0x00000268       0x18 build/d20_smartwatch/FreeMono9pt7b.c.o
+                0x00000260       0x18 build/d20_smartwatch/FreeMono9pt7b.c.o
  .debug_aranges
-                0x00000280       0x48 build/d20_smartwatch/proj_main.c.o
+                0x00000278       0x48 build/d20_smartwatch/proj_main.c.o
  .debug_aranges
-                0x000002c8       0x68 build/d20_smartwatch/syscalls.c.o
+                0x000002c0       0x68 build/d20_smartwatch/syscalls.c.o
  .debug_aranges
-                0x00000330       0x40 build/d20_smartwatch/utils.c.o
+                0x00000328       0x40 build/d20_smartwatch/utils.c.o
  .debug_aranges
-                0x00000370       0x90 build/d20_smartwatch/driver_ssp.c.o
+                0x00000368       0x90 build/d20_smartwatch/driver_ssp.c.o
  .debug_aranges
-                0x00000400       0x30 build/d20_smartwatch/driver_keyscan.c.o
+                0x000003f8       0x30 build/d20_smartwatch/driver_keyscan.c.o
  .debug_aranges
-                0x00000430       0x58 build/d20_smartwatch/driver_pmu_qdec.c.o
+                0x00000428       0x58 build/d20_smartwatch/driver_pmu_qdec.c.o
  .debug_aranges
-                0x00000488      0x118 build/d20_smartwatch/driver_pmu.c.o
+                0x00000480      0x118 build/d20_smartwatch/driver_pmu.c.o
  .debug_aranges
-                0x000005a0       0x40 build/d20_smartwatch/driver_rtc.c.o
+                0x00000598       0x40 build/d20_smartwatch/driver_rtc.c.o
  .debug_aranges
-                0x000005e0       0x48 build/d20_smartwatch/driver_wdt.c.o
+                0x000005d8       0x48 build/d20_smartwatch/driver_wdt.c.o
  .debug_aranges
-                0x00000628       0x40 build/d20_smartwatch/driver_efuse.c.o
+                0x00000620       0x40 build/d20_smartwatch/driver_efuse.c.o
  .debug_aranges
-                0x00000668       0x80 build/d20_smartwatch/exception_handlers.c.o
+                0x00000660       0x80 build/d20_smartwatch/exception_handlers.c.o
  .debug_aranges
-                0x000006e8       0x20 build/d20_smartwatch/app_boot_vectors.c.o
+                0x000006e0       0x20 build/d20_smartwatch/app_boot_vectors.c.o
  .debug_aranges
-                0x00000708       0x78 build/d20_smartwatch/patch.c.o
+                0x00000700       0x78 build/d20_smartwatch/patch.c.o
  .debug_aranges
-                0x00000780       0x98 ../../../components/ble/library\libfr8010h_stack.a(entry.o)
+                0x00000778       0x98 ../../../components/ble/library\libfr8010h_stack.a(entry.o)
  .debug_aranges
-                0x00000818       0x50 ../../../components/ble/library\libfr8010h_stack.a(jump_table.o)
+                0x00000810       0x50 ../../../components/ble/library\libfr8010h_stack.a(jump_table.o)
  .debug_aranges
-                0x00000868      0x120 ../../../components/ble/library\libfr8010h_stack.a(sys_utils.o)
+                0x00000860      0x120 ../../../components/ble/library\libfr8010h_stack.a(sys_utils.o)
  .debug_aranges
-                0x00000988      0x110 ../../../components/ble/library\libfr8010h_stack.a(patch_rf_fcc.o)
+                0x00000980      0x110 ../../../components/ble/library\libfr8010h_stack.a(patch_rf_fcc.o)
  .debug_aranges
-                0x00000a98       0x28 ../../../components/ble/library\libfr8010h_stack.a(patch_rtos.o)
+                0x00000a90       0x28 ../../../components/ble/library\libfr8010h_stack.a(patch_rtos.o)
  .debug_aranges
-                0x00000ac0       0x40 ../../../components/ble/library\libfr8010h_stack.a(patch_No_MD_bit.o)
+                0x00000ab8       0x40 ../../../components/ble/library\libfr8010h_stack.a(patch_No_MD_bit.o)
  .debug_aranges
-                0x00000b00       0x40 ../../../components/ble/library\libfr8010h_stack.a(patch_task.o)
+                0x00000af8       0x40 ../../../components/ble/library\libfr8010h_stack.a(patch_task.o)
  .debug_aranges
-                0x00000b40       0x28 ../../../components/ble/library\libfr8010h_stack.a(rwble_hl.o)
+                0x00000b38       0x28 ../../../components/ble/library\libfr8010h_stack.a(rwble_hl.o)
  .debug_aranges
-                0x00000b68       0x60 ../../../components/ble/library\libfr8010h_stack.a(prf.o)
+                0x00000b60       0x60 ../../../components/ble/library\libfr8010h_stack.a(prf.o)
  .debug_aranges
-                0x00000bc8       0x50 ../../../components/ble/library\libfr8010h_stack.a(l2cm.o)
+                0x00000bc0       0x50 ../../../components/ble/library\libfr8010h_stack.a(l2cm.o)
  .debug_aranges
-                0x00000c18       0x68 ../../../components/ble/library\libfr8010h_stack.a(l2cc.o)
+                0x00000c10       0x68 ../../../components/ble/library\libfr8010h_stack.a(l2cc.o)
  .debug_aranges
-                0x00000c80       0x60 ../../../components/ble/library\libfr8010h_stack.a(l2cc_lecb.o)
+                0x00000c78       0x60 ../../../components/ble/library\libfr8010h_stack.a(l2cc_lecb.o)
  .debug_aranges
-                0x00000ce0       0x58 ../../../components/ble/library\libfr8010h_stack.a(l2cc_pdu.o)
+                0x00000cd8       0x58 ../../../components/ble/library\libfr8010h_stack.a(l2cc_pdu.o)
  .debug_aranges
-                0x00000d38       0x90 ../../../components/ble/library\libfr8010h_stack.a(l2cc_task.o)
+                0x00000d30       0x90 ../../../components/ble/library\libfr8010h_stack.a(l2cc_task.o)
  .debug_aranges
-                0x00000dc8       0x40 ../../../components/ble/library\libfr8010h_stack.a(gattm.o)
+                0x00000dc0       0x40 ../../../components/ble/library\libfr8010h_stack.a(gattm.o)
  .debug_aranges
-                0x00000e08       0x20 ../../../components/ble/library\libfr8010h_stack.a(gattm_task.o)
+                0x00000e00       0x20 ../../../components/ble/library\libfr8010h_stack.a(gattm_task.o)
  .debug_aranges
-                0x00000e28       0x98 ../../../components/ble/library\libfr8010h_stack.a(gattc.o)
+                0x00000e20       0x98 ../../../components/ble/library\libfr8010h_stack.a(gattc.o)
  .debug_aranges
-                0x00000ec0      0x100 ../../../components/ble/library\libfr8010h_stack.a(gattc_task.o)
+                0x00000eb8      0x100 ../../../components/ble/library\libfr8010h_stack.a(gattc_task.o)
  .debug_aranges
-                0x00000fc0       0xf8 ../../../components/ble/library\libfr8010h_stack.a(atts.o)
+                0x00000fb8       0xf8 ../../../components/ble/library\libfr8010h_stack.a(atts.o)
  .debug_aranges
-                0x000010b8       0x98 ../../../components/ble/library\libfr8010h_stack.a(attm.o)
+                0x000010b0       0x98 ../../../components/ble/library\libfr8010h_stack.a(attm.o)
  .debug_aranges
-                0x00001150       0x70 ../../../components/ble/library\libfr8010h_stack.a(attm_db.o)
+                0x00001148       0x70 ../../../components/ble/library\libfr8010h_stack.a(attm_db.o)
  .debug_aranges
-                0x000011c0       0xa0 ../../../components/ble/library\libfr8010h_stack.a(attc.o)
+                0x000011b8       0xa0 ../../../components/ble/library\libfr8010h_stack.a(attc.o)
  .debug_aranges
-                0x00001260      0x120 ../../../components/ble/library\libfr8010h_stack.a(gapm.o)
+                0x00001258      0x120 ../../../components/ble/library\libfr8010h_stack.a(gapm.o)
  .debug_aranges
-                0x00001380       0xa0 ../../../components/ble/library\libfr8010h_stack.a(gapm_actv.o)
+                0x00001378       0xa0 ../../../components/ble/library\libfr8010h_stack.a(gapm_actv.o)
  .debug_aranges
-                0x00001420       0x70 ../../../components/ble/library\libfr8010h_stack.a(gapm_addr.o)
+                0x00001418       0x70 ../../../components/ble/library\libfr8010h_stack.a(gapm_addr.o)
  .debug_aranges
-                0x00001490       0x78 ../../../components/ble/library\libfr8010h_stack.a(gapm_adv.o)
+                0x00001488       0x78 ../../../components/ble/library\libfr8010h_stack.a(gapm_adv.o)
  .debug_aranges
-                0x00001508       0x68 ../../../components/ble/library\libfr8010h_stack.a(gapm_init.o)
+                0x00001500       0x68 ../../../components/ble/library\libfr8010h_stack.a(gapm_init.o)
  .debug_aranges
-                0x00001570       0x70 ../../../components/ble/library\libfr8010h_stack.a(gapm_per_sync.o)
+                0x00001568       0x70 ../../../components/ble/library\libfr8010h_stack.a(gapm_per_sync.o)
  .debug_aranges
-                0x000015e0       0x70 ../../../components/ble/library\libfr8010h_stack.a(gapm_scan.o)
+                0x000015d8       0x70 ../../../components/ble/library\libfr8010h_stack.a(gapm_scan.o)
  .debug_aranges
-                0x00001650       0x30 ../../../components/ble/library\libfr8010h_stack.a(gapm_task.o)
+                0x00001648       0x30 ../../../components/ble/library\libfr8010h_stack.a(gapm_task.o)
  .debug_aranges
-                0x00001680      0x128 ../../../components/ble/library\libfr8010h_stack.a(gapc.o)
+                0x00001678      0x128 ../../../components/ble/library\libfr8010h_stack.a(gapc.o)
  .debug_aranges
-                0x000017a8      0x128 ../../../components/ble/library\libfr8010h_stack.a(gapc_task.o)
+                0x000017a0      0x128 ../../../components/ble/library\libfr8010h_stack.a(gapc_task.o)
  .debug_aranges
-                0x000018d0       0x60 ../../../components/ble/library\libfr8010h_stack.a(flash.o)
+                0x000018c8       0x60 ../../../components/ble/library\libfr8010h_stack.a(flash.o)
  .debug_aranges
-                0x00001930      0x158 ../../../components/ble/library\libfr8010h_stack.a(app.o)
+                0x00001928      0x158 ../../../components/ble/library\libfr8010h_stack.a(app.o)
  .debug_aranges
-                0x00001a88       0x20 ../../../components/ble/library\libfr8010h_stack.a(app_prf.o)
+                0x00001a80       0x20 ../../../components/ble/library\libfr8010h_stack.a(app_prf.o)
  .debug_aranges
-                0x00001aa8       0xf0 ../../../components/ble/library\libfr8010h_stack.a(app_proj_event.o)
+                0x00001aa0       0xf0 ../../../components/ble/library\libfr8010h_stack.a(app_proj_event.o)
  .debug_aranges
-                0x00001b98       0xc8 ../../../components/ble/library\libfr8010h_stack.a(app_sec.o)
+                0x00001b90       0xc8 ../../../components/ble/library\libfr8010h_stack.a(app_sec.o)
  .debug_aranges
-                0x00001c60      0x100 ../../../components/ble/library\libfr8010h_stack.a(app_task.o)
+                0x00001c58      0x100 ../../../components/ble/library\libfr8010h_stack.a(app_task.o)
  .debug_aranges
-                0x00001d60       0x90 ../../../components/ble/library\libfr8010h_stack.a(user_bond_manage.o)
+                0x00001d58       0x90 ../../../components/ble/library\libfr8010h_stack.a(user_bond_manage.o)
  .debug_aranges
-                0x00001df0       0x48 ../../../components/ble/library\libfr8010h_stack.a(os_timer.o)
+                0x00001de8       0x48 ../../../components/ble/library\libfr8010h_stack.a(os_timer.o)
  .debug_aranges
-                0x00001e38       0xa0 ../../../components/ble/library\libfr8010h_stack.a(m_al_task.o)
+                0x00001e30       0xa0 ../../../components/ble/library\libfr8010h_stack.a(m_al_task.o)
  .debug_aranges
-                0x00001ed8      0x160 ../../../components/ble/library\libfr8010h_stack.a(mesh_api.o)
+                0x00001ed0      0x160 ../../../components/ble/library\libfr8010h_stack.a(mesh_api.o)
  .debug_aranges
-                0x00002038      0x1a0 ../../../components/ble/library\libfr8010h_stack.a(gatt_api.o)
+                0x00002030      0x1a0 ../../../components/ble/library\libfr8010h_stack.a(gatt_api.o)
  .debug_aranges
-                0x000021d8      0x208 ../../../components/ble/library\libfr8010h_stack.a(gap_api.o)
+                0x000021d0      0x208 ../../../components/ble/library\libfr8010h_stack.a(gap_api.o)
  .debug_aranges
-                0x000023e0       0x80 ../../../components/ble/library\libfr8010h_stack.a(prf_utils.o)
+                0x000023d8       0x80 ../../../components/ble/library\libfr8010h_stack.a(prf_utils.o)
  .debug_aranges
-                0x00002460       0x68 ../../../components/ble/library\libfr8010h_stack.a(l2cc_sig.o)
+                0x00002458       0x68 ../../../components/ble/library\libfr8010h_stack.a(l2cc_sig.o)
  .debug_aranges
-                0x000024c8      0x138 ../../../components/ble/library\libfr8010h_stack.a(smpc.o)
+                0x000024c0      0x138 ../../../components/ble/library\libfr8010h_stack.a(smpc.o)
  .debug_aranges
-                0x00002600       0xa8 ../../../components/ble/library\libfr8010h_stack.a(smpc_api.o)
+                0x000025f8       0xa8 ../../../components/ble/library\libfr8010h_stack.a(smpc_api.o)
  .debug_aranges
-                0x000026a8       0x88 ../../../components/ble/library\libfr8010h_stack.a(smpc_crypto.o)
+                0x000026a0       0x88 ../../../components/ble/library\libfr8010h_stack.a(smpc_crypto.o)
  .debug_aranges
-                0x00002730      0x100 ../../../components/ble/library\libfr8010h_stack.a(smpc_util.o)
+                0x00002728      0x100 ../../../components/ble/library\libfr8010h_stack.a(smpc_util.o)
  .debug_aranges
-                0x00002830       0xe8 ../../../components/ble/library\libfr8010h_stack.a(gapm_cfg.o)
+                0x00002828       0xe8 ../../../components/ble/library\libfr8010h_stack.a(gapm_cfg.o)
  .debug_aranges
-                0x00002918       0x58 ../../../components/ble/library\libfr8010h_stack.a(gapm_list.o)
+                0x00002910       0x58 ../../../components/ble/library\libfr8010h_stack.a(gapm_list.o)
  .debug_aranges
-                0x00002970       0x68 ../../../components/ble/library\libfr8010h_stack.a(gapm_smp.o)
+                0x00002968       0x68 ../../../components/ble/library\libfr8010h_stack.a(gapm_smp.o)
  .debug_aranges
-                0x000029d8       0xc0 ../../../components/ble/library\libfr8010h_stack.a(gapc_hci.o)
+                0x000029d0       0xc0 ../../../components/ble/library\libfr8010h_stack.a(gapc_hci.o)
  .debug_aranges
-                0x00002a98       0x40 ../../../components/ble/library\libfr8010h_stack.a(gapc_sig.o)
+                0x00002a90       0x40 ../../../components/ble/library\libfr8010h_stack.a(gapc_sig.o)
  .debug_aranges
-                0x00002ad8       0x48 ../../../components/ble/library\libfr8010h_stack.a(app_conn.o)
+                0x00002ad0       0x48 ../../../components/ble/library\libfr8010h_stack.a(app_conn.o)
  .debug_aranges
-                0x00002b20       0x38 ../../../components/ble/library\libfr8010h_stack.a(os_msg_q.o)
+                0x00002b18       0x38 ../../../components/ble/library\libfr8010h_stack.a(os_msg_q.o)
  .debug_aranges
-                0x00002b58       0x80 ../../../components/ble/library\libfr8010h_stack.a(os_task.o)
+                0x00002b50       0x80 ../../../components/ble/library\libfr8010h_stack.a(os_task.o)
  .debug_aranges
-                0x00002bd8       0x70 ../../../components/ble/library\libfr8010h_stack.a(m_al_scan.o)
+                0x00002bd0       0x70 ../../../components/ble/library\libfr8010h_stack.a(m_al_scan.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000    0xdaaeb
+.debug_info     0x00000000    0xdab00
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0xb09 build/d20_smartwatch/app.c.o
  .debug_info    0x00000b09      0xfaa build/d20_smartwatch/display.c.o
- .debug_info    0x00001ab3     0x35d8 build/d20_smartwatch/gfx.c.o
- .debug_info    0x0000508b      0x22a build/d20_smartwatch/FreeMono9pt7b.c.o
- .debug_info    0x000052b5      0xa51 build/d20_smartwatch/proj_main.c.o
- .debug_info    0x00005d06      0x548 build/d20_smartwatch/syscalls.c.o
- .debug_info    0x0000624e      0x49a build/d20_smartwatch/utils.c.o
- .debug_info    0x000066e8      0x96e build/d20_smartwatch/driver_ssp.c.o
- .debug_info    0x00007056      0x69c build/d20_smartwatch/driver_keyscan.c.o
- .debug_info    0x000076f2      0x642 build/d20_smartwatch/driver_pmu_qdec.c.o
- .debug_info    0x00007d34     0x21db build/d20_smartwatch/driver_pmu.c.o
- .debug_info    0x00009f0f      0x47f build/d20_smartwatch/driver_rtc.c.o
- .debug_info    0x0000a38e      0x519 build/d20_smartwatch/driver_wdt.c.o
- .debug_info    0x0000a8a7      0x4e0 build/d20_smartwatch/driver_efuse.c.o
- .debug_info    0x0000ad87      0x2a1 build/d20_smartwatch/exception_handlers.c.o
- .debug_info    0x0000b028      0x10e build/d20_smartwatch/app_boot_vectors.c.o
- .debug_info    0x0000b136     0x138e build/d20_smartwatch/patch.c.o
- .debug_info    0x0000c4c4     0x3cff ../../../components/ble/library\libfr8010h_stack.a(entry.o)
- .debug_info    0x000101c3     0x4441 ../../../components/ble/library\libfr8010h_stack.a(jump_table.o)
- .debug_info    0x00014604     0x2d5a ../../../components/ble/library\libfr8010h_stack.a(sys_utils.o)
- .debug_info    0x0001735e     0x6075 ../../../components/ble/library\libfr8010h_stack.a(patch_rf_fcc.o)
- .debug_info    0x0001d3d3     0x1b43 ../../../components/ble/library\libfr8010h_stack.a(patch_rtos.o)
- .debug_info    0x0001ef16     0x1cfb ../../../components/ble/library\libfr8010h_stack.a(patch_No_MD_bit.o)
- .debug_info    0x00020c11     0x154b ../../../components/ble/library\libfr8010h_stack.a(patch_task.o)
- .debug_info    0x0002215c     0x118a ../../../components/ble/library\libfr8010h_stack.a(rwble_hl.o)
- .debug_info    0x000232e6     0x1996 ../../../components/ble/library\libfr8010h_stack.a(prf.o)
- .debug_info    0x00024c7c     0x1443 ../../../components/ble/library\libfr8010h_stack.a(l2cm.o)
- .debug_info    0x000260bf     0x38f6 ../../../components/ble/library\libfr8010h_stack.a(l2cc.o)
- .debug_info    0x000299b5     0x229a ../../../components/ble/library\libfr8010h_stack.a(l2cc_lecb.o)
- .debug_info    0x0002bc4f     0x3ea9 ../../../components/ble/library\libfr8010h_stack.a(l2cc_pdu.o)
- .debug_info    0x0002faf8     0x466b ../../../components/ble/library\libfr8010h_stack.a(l2cc_task.o)
- .debug_info    0x00034163     0x2438 ../../../components/ble/library\libfr8010h_stack.a(gattm.o)
- .debug_info    0x0003659b     0x1549 ../../../components/ble/library\libfr8010h_stack.a(gattm_task.o)
- .debug_info    0x00037ae4     0x2549 ../../../components/ble/library\libfr8010h_stack.a(gattc.o)
- .debug_info    0x0003a02d     0x6bcb ../../../components/ble/library\libfr8010h_stack.a(gattc_task.o)
- .debug_info    0x00040bf8     0x7126 ../../../components/ble/library\libfr8010h_stack.a(atts.o)
- .debug_info    0x00047d1e     0x2fc3 ../../../components/ble/library\libfr8010h_stack.a(attm.o)
- .debug_info    0x0004ace1     0x2888 ../../../components/ble/library\libfr8010h_stack.a(attm_db.o)
- .debug_info    0x0004d569     0x4ab5 ../../../components/ble/library\libfr8010h_stack.a(attc.o)
- .debug_info    0x0005201e     0x41a1 ../../../components/ble/library\libfr8010h_stack.a(gapm.o)
- .debug_info    0x000561bf     0x3502 ../../../components/ble/library\libfr8010h_stack.a(gapm_actv.o)
- .debug_info    0x000596c1     0x2f21 ../../../components/ble/library\libfr8010h_stack.a(gapm_addr.o)
- .debug_info    0x0005c5e2     0x451b ../../../components/ble/library\libfr8010h_stack.a(gapm_adv.o)
- .debug_info    0x00060afd     0x3503 ../../../components/ble/library\libfr8010h_stack.a(gapm_init.o)
- .debug_info    0x00064000     0x3432 ../../../components/ble/library\libfr8010h_stack.a(gapm_per_sync.o)
- .debug_info    0x00067432     0x3a5f ../../../components/ble/library\libfr8010h_stack.a(gapm_scan.o)
- .debug_info    0x0006ae91     0x28fd ../../../components/ble/library\libfr8010h_stack.a(gapm_task.o)
- .debug_info    0x0006d78e     0x323a ../../../components/ble/library\libfr8010h_stack.a(gapc.o)
- .debug_info    0x000709c8     0x8986 ../../../components/ble/library\libfr8010h_stack.a(gapc_task.o)
- .debug_info    0x0007934e     0x2037 ../../../components/ble/library\libfr8010h_stack.a(flash.o)
- .debug_info    0x0007b385     0x5b7c ../../../components/ble/library\libfr8010h_stack.a(app.o)
- .debug_info    0x00080f01     0x110a ../../../components/ble/library\libfr8010h_stack.a(app_prf.o)
- .debug_info    0x0008200b     0x349e ../../../components/ble/library\libfr8010h_stack.a(app_proj_event.o)
- .debug_info    0x000854a9     0x40e7 ../../../components/ble/library\libfr8010h_stack.a(app_sec.o)
- .debug_info    0x00089590     0x527c ../../../components/ble/library\libfr8010h_stack.a(app_task.o)
- .debug_info    0x0008e80c     0x2cac ../../../components/ble/library\libfr8010h_stack.a(user_bond_manage.o)
- .debug_info    0x000914b8     0x1b17 ../../../components/ble/library\libfr8010h_stack.a(os_timer.o)
- .debug_info    0x00092fcf     0x368e ../../../components/ble/library\libfr8010h_stack.a(m_al_task.o)
- .debug_info    0x0009665d     0x5469 ../../../components/ble/library\libfr8010h_stack.a(mesh_api.o)
- .debug_info    0x0009bac6     0x6233 ../../../components/ble/library\libfr8010h_stack.a(gatt_api.o)
- .debug_info    0x000a1cf9     0x54ff ../../../components/ble/library\libfr8010h_stack.a(gap_api.o)
- .debug_info    0x000a71f8     0x28b3 ../../../components/ble/library\libfr8010h_stack.a(prf_utils.o)
- .debug_info    0x000a9aab     0x3ca4 ../../../components/ble/library\libfr8010h_stack.a(l2cc_sig.o)
- .debug_info    0x000ad74f     0x5cea ../../../components/ble/library\libfr8010h_stack.a(smpc.o)
- .debug_info    0x000b3439     0x4d8d ../../../components/ble/library\libfr8010h_stack.a(smpc_api.o)
- .debug_info    0x000b81c6     0x1d24 ../../../components/ble/library\libfr8010h_stack.a(smpc_crypto.o)
- .debug_info    0x000b9eea     0x476c ../../../components/ble/library\libfr8010h_stack.a(smpc_util.o)
- .debug_info    0x000be656     0x5480 ../../../components/ble/library\libfr8010h_stack.a(gapm_cfg.o)
- .debug_info    0x000c3ad6     0x347a ../../../components/ble/library\libfr8010h_stack.a(gapm_list.o)
- .debug_info    0x000c6f50     0x3944 ../../../components/ble/library\libfr8010h_stack.a(gapm_smp.o)
- .debug_info    0x000ca894     0x4bca ../../../components/ble/library\libfr8010h_stack.a(gapc_hci.o)
- .debug_info    0x000cf45e     0x3227 ../../../components/ble/library\libfr8010h_stack.a(gapc_sig.o)
- .debug_info    0x000d2685     0x2f5f ../../../components/ble/library\libfr8010h_stack.a(app_conn.o)
- .debug_info    0x000d55e4      0xe6e ../../../components/ble/library\libfr8010h_stack.a(os_msg_q.o)
- .debug_info    0x000d6452     0x15d6 ../../../components/ble/library\libfr8010h_stack.a(os_task.o)
- .debug_info    0x000d7a28     0x30c3 ../../../components/ble/library\libfr8010h_stack.a(m_al_scan.o)
+ .debug_info    0x00001ab3     0x35ed build/d20_smartwatch/gfx.c.o
+ .debug_info    0x000050a0      0x22a build/d20_smartwatch/FreeMono9pt7b.c.o
+ .debug_info    0x000052ca      0xa51 build/d20_smartwatch/proj_main.c.o
+ .debug_info    0x00005d1b      0x548 build/d20_smartwatch/syscalls.c.o
+ .debug_info    0x00006263      0x49a build/d20_smartwatch/utils.c.o
+ .debug_info    0x000066fd      0x96e build/d20_smartwatch/driver_ssp.c.o
+ .debug_info    0x0000706b      0x69c build/d20_smartwatch/driver_keyscan.c.o
+ .debug_info    0x00007707      0x642 build/d20_smartwatch/driver_pmu_qdec.c.o
+ .debug_info    0x00007d49     0x21db build/d20_smartwatch/driver_pmu.c.o
+ .debug_info    0x00009f24      0x47f build/d20_smartwatch/driver_rtc.c.o
+ .debug_info    0x0000a3a3      0x519 build/d20_smartwatch/driver_wdt.c.o
+ .debug_info    0x0000a8bc      0x4e0 build/d20_smartwatch/driver_efuse.c.o
+ .debug_info    0x0000ad9c      0x2a1 build/d20_smartwatch/exception_handlers.c.o
+ .debug_info    0x0000b03d      0x10e build/d20_smartwatch/app_boot_vectors.c.o
+ .debug_info    0x0000b14b     0x138e build/d20_smartwatch/patch.c.o
+ .debug_info    0x0000c4d9     0x3cff ../../../components/ble/library\libfr8010h_stack.a(entry.o)
+ .debug_info    0x000101d8     0x4441 ../../../components/ble/library\libfr8010h_stack.a(jump_table.o)
+ .debug_info    0x00014619     0x2d5a ../../../components/ble/library\libfr8010h_stack.a(sys_utils.o)
+ .debug_info    0x00017373     0x6075 ../../../components/ble/library\libfr8010h_stack.a(patch_rf_fcc.o)
+ .debug_info    0x0001d3e8     0x1b43 ../../../components/ble/library\libfr8010h_stack.a(patch_rtos.o)
+ .debug_info    0x0001ef2b     0x1cfb ../../../components/ble/library\libfr8010h_stack.a(patch_No_MD_bit.o)
+ .debug_info    0x00020c26     0x154b ../../../components/ble/library\libfr8010h_stack.a(patch_task.o)
+ .debug_info    0x00022171     0x118a ../../../components/ble/library\libfr8010h_stack.a(rwble_hl.o)
+ .debug_info    0x000232fb     0x1996 ../../../components/ble/library\libfr8010h_stack.a(prf.o)
+ .debug_info    0x00024c91     0x1443 ../../../components/ble/library\libfr8010h_stack.a(l2cm.o)
+ .debug_info    0x000260d4     0x38f6 ../../../components/ble/library\libfr8010h_stack.a(l2cc.o)
+ .debug_info    0x000299ca     0x229a ../../../components/ble/library\libfr8010h_stack.a(l2cc_lecb.o)
+ .debug_info    0x0002bc64     0x3ea9 ../../../components/ble/library\libfr8010h_stack.a(l2cc_pdu.o)
+ .debug_info    0x0002fb0d     0x466b ../../../components/ble/library\libfr8010h_stack.a(l2cc_task.o)
+ .debug_info    0x00034178     0x2438 ../../../components/ble/library\libfr8010h_stack.a(gattm.o)
+ .debug_info    0x000365b0     0x1549 ../../../components/ble/library\libfr8010h_stack.a(gattm_task.o)
+ .debug_info    0x00037af9     0x2549 ../../../components/ble/library\libfr8010h_stack.a(gattc.o)
+ .debug_info    0x0003a042     0x6bcb ../../../components/ble/library\libfr8010h_stack.a(gattc_task.o)
+ .debug_info    0x00040c0d     0x7126 ../../../components/ble/library\libfr8010h_stack.a(atts.o)
+ .debug_info    0x00047d33     0x2fc3 ../../../components/ble/library\libfr8010h_stack.a(attm.o)
+ .debug_info    0x0004acf6     0x2888 ../../../components/ble/library\libfr8010h_stack.a(attm_db.o)
+ .debug_info    0x0004d57e     0x4ab5 ../../../components/ble/library\libfr8010h_stack.a(attc.o)
+ .debug_info    0x00052033     0x41a1 ../../../components/ble/library\libfr8010h_stack.a(gapm.o)
+ .debug_info    0x000561d4     0x3502 ../../../components/ble/library\libfr8010h_stack.a(gapm_actv.o)
+ .debug_info    0x000596d6     0x2f21 ../../../components/ble/library\libfr8010h_stack.a(gapm_addr.o)
+ .debug_info    0x0005c5f7     0x451b ../../../components/ble/library\libfr8010h_stack.a(gapm_adv.o)
+ .debug_info    0x00060b12     0x3503 ../../../components/ble/library\libfr8010h_stack.a(gapm_init.o)
+ .debug_info    0x00064015     0x3432 ../../../components/ble/library\libfr8010h_stack.a(gapm_per_sync.o)
+ .debug_info    0x00067447     0x3a5f ../../../components/ble/library\libfr8010h_stack.a(gapm_scan.o)
+ .debug_info    0x0006aea6     0x28fd ../../../components/ble/library\libfr8010h_stack.a(gapm_task.o)
+ .debug_info    0x0006d7a3     0x323a ../../../components/ble/library\libfr8010h_stack.a(gapc.o)
+ .debug_info    0x000709dd     0x8986 ../../../components/ble/library\libfr8010h_stack.a(gapc_task.o)
+ .debug_info    0x00079363     0x2037 ../../../components/ble/library\libfr8010h_stack.a(flash.o)
+ .debug_info    0x0007b39a     0x5b7c ../../../components/ble/library\libfr8010h_stack.a(app.o)
+ .debug_info    0x00080f16     0x110a ../../../components/ble/library\libfr8010h_stack.a(app_prf.o)
+ .debug_info    0x00082020     0x349e ../../../components/ble/library\libfr8010h_stack.a(app_proj_event.o)
+ .debug_info    0x000854be     0x40e7 ../../../components/ble/library\libfr8010h_stack.a(app_sec.o)
+ .debug_info    0x000895a5     0x527c ../../../components/ble/library\libfr8010h_stack.a(app_task.o)
+ .debug_info    0x0008e821     0x2cac ../../../components/ble/library\libfr8010h_stack.a(user_bond_manage.o)
+ .debug_info    0x000914cd     0x1b17 ../../../components/ble/library\libfr8010h_stack.a(os_timer.o)
+ .debug_info    0x00092fe4     0x368e ../../../components/ble/library\libfr8010h_stack.a(m_al_task.o)
+ .debug_info    0x00096672     0x5469 ../../../components/ble/library\libfr8010h_stack.a(mesh_api.o)
+ .debug_info    0x0009badb     0x6233 ../../../components/ble/library\libfr8010h_stack.a(gatt_api.o)
+ .debug_info    0x000a1d0e     0x54ff ../../../components/ble/library\libfr8010h_stack.a(gap_api.o)
+ .debug_info    0x000a720d     0x28b3 ../../../components/ble/library\libfr8010h_stack.a(prf_utils.o)
+ .debug_info    0x000a9ac0     0x3ca4 ../../../components/ble/library\libfr8010h_stack.a(l2cc_sig.o)
+ .debug_info    0x000ad764     0x5cea ../../../components/ble/library\libfr8010h_stack.a(smpc.o)
+ .debug_info    0x000b344e     0x4d8d ../../../components/ble/library\libfr8010h_stack.a(smpc_api.o)
+ .debug_info    0x000b81db     0x1d24 ../../../components/ble/library\libfr8010h_stack.a(smpc_crypto.o)
+ .debug_info    0x000b9eff     0x476c ../../../components/ble/library\libfr8010h_stack.a(smpc_util.o)
+ .debug_info    0x000be66b     0x5480 ../../../components/ble/library\libfr8010h_stack.a(gapm_cfg.o)
+ .debug_info    0x000c3aeb     0x347a ../../../components/ble/library\libfr8010h_stack.a(gapm_list.o)
+ .debug_info    0x000c6f65     0x3944 ../../../components/ble/library\libfr8010h_stack.a(gapm_smp.o)
+ .debug_info    0x000ca8a9     0x4bca ../../../components/ble/library\libfr8010h_stack.a(gapc_hci.o)
+ .debug_info    0x000cf473     0x3227 ../../../components/ble/library\libfr8010h_stack.a(gapc_sig.o)
+ .debug_info    0x000d269a     0x2f5f ../../../components/ble/library\libfr8010h_stack.a(app_conn.o)
+ .debug_info    0x000d55f9      0xe6e ../../../components/ble/library\libfr8010h_stack.a(os_msg_q.o)
+ .debug_info    0x000d6467     0x15d6 ../../../components/ble/library\libfr8010h_stack.a(os_task.o)
+ .debug_info    0x000d7a3d     0x30c3 ../../../components/ble/library\libfr8010h_stack.a(m_al_scan.o)
 
-.debug_abbrev   0x00000000    0x114c6
+.debug_abbrev   0x00000000    0x114dd
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x2bd build/d20_smartwatch/app.c.o
  .debug_abbrev  0x000002bd      0x320 build/d20_smartwatch/display.c.o
- .debug_abbrev  0x000005dd      0x44e build/d20_smartwatch/gfx.c.o
- .debug_abbrev  0x00000a2b       0xbe build/d20_smartwatch/FreeMono9pt7b.c.o
- .debug_abbrev  0x00000ae9      0x207 build/d20_smartwatch/proj_main.c.o
- .debug_abbrev  0x00000cf0      0x1bb build/d20_smartwatch/syscalls.c.o
- .debug_abbrev  0x00000eab      0x1bb build/d20_smartwatch/utils.c.o
- .debug_abbrev  0x00001066      0x3be build/d20_smartwatch/driver_ssp.c.o
- .debug_abbrev  0x00001424      0x188 build/d20_smartwatch/driver_keyscan.c.o
- .debug_abbrev  0x000015ac      0x19b build/d20_smartwatch/driver_pmu_qdec.c.o
- .debug_abbrev  0x00001747      0x322 build/d20_smartwatch/driver_pmu.c.o
- .debug_abbrev  0x00001a69      0x15b build/d20_smartwatch/driver_rtc.c.o
- .debug_abbrev  0x00001bc4      0x177 build/d20_smartwatch/driver_wdt.c.o
- .debug_abbrev  0x00001d3b      0x1db build/d20_smartwatch/driver_efuse.c.o
- .debug_abbrev  0x00001f16      0x11d build/d20_smartwatch/exception_handlers.c.o
- .debug_abbrev  0x00002033       0xa1 build/d20_smartwatch/app_boot_vectors.c.o
- .debug_abbrev  0x000020d4      0x412 build/d20_smartwatch/patch.c.o
- .debug_abbrev  0x000024e6      0x59f ../../../components/ble/library\libfr8010h_stack.a(entry.o)
- .debug_abbrev  0x00002a85      0x40b ../../../components/ble/library\libfr8010h_stack.a(jump_table.o)
- .debug_abbrev  0x00002e90      0x591 ../../../components/ble/library\libfr8010h_stack.a(sys_utils.o)
- .debug_abbrev  0x00003421      0x601 ../../../components/ble/library\libfr8010h_stack.a(patch_rf_fcc.o)
- .debug_abbrev  0x00003a22      0x3cf ../../../components/ble/library\libfr8010h_stack.a(patch_rtos.o)
- .debug_abbrev  0x00003df1      0x2e2 ../../../components/ble/library\libfr8010h_stack.a(patch_No_MD_bit.o)
- .debug_abbrev  0x000040d3      0x346 ../../../components/ble/library\libfr8010h_stack.a(patch_task.o)
- .debug_abbrev  0x00004419      0x1f7 ../../../components/ble/library\libfr8010h_stack.a(rwble_hl.o)
- .debug_abbrev  0x00004610      0x2f1 ../../../components/ble/library\libfr8010h_stack.a(prf.o)
- .debug_abbrev  0x00004901      0x31b ../../../components/ble/library\libfr8010h_stack.a(l2cm.o)
- .debug_abbrev  0x00004c1c      0x47b ../../../components/ble/library\libfr8010h_stack.a(l2cc.o)
- .debug_abbrev  0x00005097      0x3af ../../../components/ble/library\libfr8010h_stack.a(l2cc_lecb.o)
- .debug_abbrev  0x00005446      0x42b ../../../components/ble/library\libfr8010h_stack.a(l2cc_pdu.o)
- .debug_abbrev  0x00005871      0x4d6 ../../../components/ble/library\libfr8010h_stack.a(l2cc_task.o)
- .debug_abbrev  0x00005d47      0x316 ../../../components/ble/library\libfr8010h_stack.a(gattm.o)
- .debug_abbrev  0x0000605d      0x239 ../../../components/ble/library\libfr8010h_stack.a(gattm_task.o)
- .debug_abbrev  0x00006296      0x40c ../../../components/ble/library\libfr8010h_stack.a(gattc.o)
- .debug_abbrev  0x000066a2      0x4b6 ../../../components/ble/library\libfr8010h_stack.a(gattc_task.o)
- .debug_abbrev  0x00006b58      0x527 ../../../components/ble/library\libfr8010h_stack.a(atts.o)
- .debug_abbrev  0x0000707f      0x424 ../../../components/ble/library\libfr8010h_stack.a(attm.o)
- .debug_abbrev  0x000074a3      0x405 ../../../components/ble/library\libfr8010h_stack.a(attm_db.o)
- .debug_abbrev  0x000078a8      0x4cb ../../../components/ble/library\libfr8010h_stack.a(attc.o)
- .debug_abbrev  0x00007d73      0x528 ../../../components/ble/library\libfr8010h_stack.a(gapm.o)
- .debug_abbrev  0x0000829b      0x487 ../../../components/ble/library\libfr8010h_stack.a(gapm_actv.o)
- .debug_abbrev  0x00008722      0x424 ../../../components/ble/library\libfr8010h_stack.a(gapm_addr.o)
- .debug_abbrev  0x00008b46      0x469 ../../../components/ble/library\libfr8010h_stack.a(gapm_adv.o)
- .debug_abbrev  0x00008faf      0x3ee ../../../components/ble/library\libfr8010h_stack.a(gapm_init.o)
- .debug_abbrev  0x0000939d      0x45e ../../../components/ble/library\libfr8010h_stack.a(gapm_per_sync.o)
- .debug_abbrev  0x000097fb      0x4aa ../../../components/ble/library\libfr8010h_stack.a(gapm_scan.o)
- .debug_abbrev  0x00009ca5      0x308 ../../../components/ble/library\libfr8010h_stack.a(gapm_task.o)
- .debug_abbrev  0x00009fad      0x433 ../../../components/ble/library\libfr8010h_stack.a(gapc.o)
- .debug_abbrev  0x0000a3e0      0x4ba ../../../components/ble/library\libfr8010h_stack.a(gapc_task.o)
- .debug_abbrev  0x0000a89a      0x313 ../../../components/ble/library\libfr8010h_stack.a(flash.o)
- .debug_abbrev  0x0000abad      0x481 ../../../components/ble/library\libfr8010h_stack.a(app.o)
- .debug_abbrev  0x0000b02e      0x22e ../../../components/ble/library\libfr8010h_stack.a(app_prf.o)
- .debug_abbrev  0x0000b25c      0x3cb ../../../components/ble/library\libfr8010h_stack.a(app_proj_event.o)
- .debug_abbrev  0x0000b627      0x51d ../../../components/ble/library\libfr8010h_stack.a(app_sec.o)
- .debug_abbrev  0x0000bb44      0x454 ../../../components/ble/library\libfr8010h_stack.a(app_task.o)
- .debug_abbrev  0x0000bf98      0x410 ../../../components/ble/library\libfr8010h_stack.a(user_bond_manage.o)
- .debug_abbrev  0x0000c3a8      0x3cd ../../../components/ble/library\libfr8010h_stack.a(os_timer.o)
- .debug_abbrev  0x0000c775      0x473 ../../../components/ble/library\libfr8010h_stack.a(m_al_task.o)
- .debug_abbrev  0x0000cbe8      0x454 ../../../components/ble/library\libfr8010h_stack.a(mesh_api.o)
- .debug_abbrev  0x0000d03c      0x5e0 ../../../components/ble/library\libfr8010h_stack.a(gatt_api.o)
- .debug_abbrev  0x0000d61c      0x454 ../../../components/ble/library\libfr8010h_stack.a(gap_api.o)
- .debug_abbrev  0x0000da70      0x46e ../../../components/ble/library\libfr8010h_stack.a(prf_utils.o)
- .debug_abbrev  0x0000dede      0x48a ../../../components/ble/library\libfr8010h_stack.a(l2cc_sig.o)
- .debug_abbrev  0x0000e368      0x46b ../../../components/ble/library\libfr8010h_stack.a(smpc.o)
- .debug_abbrev  0x0000e7d3      0x47c ../../../components/ble/library\libfr8010h_stack.a(smpc_api.o)
- .debug_abbrev  0x0000ec4f      0x344 ../../../components/ble/library\libfr8010h_stack.a(smpc_crypto.o)
- .debug_abbrev  0x0000ef93      0x470 ../../../components/ble/library\libfr8010h_stack.a(smpc_util.o)
- .debug_abbrev  0x0000f403      0x411 ../../../components/ble/library\libfr8010h_stack.a(gapm_cfg.o)
- .debug_abbrev  0x0000f814      0x3e5 ../../../components/ble/library\libfr8010h_stack.a(gapm_list.o)
- .debug_abbrev  0x0000fbf9      0x415 ../../../components/ble/library\libfr8010h_stack.a(gapm_smp.o)
- .debug_abbrev  0x0001000e      0x3d6 ../../../components/ble/library\libfr8010h_stack.a(gapc_hci.o)
- .debug_abbrev  0x000103e4      0x38f ../../../components/ble/library\libfr8010h_stack.a(gapc_sig.o)
- .debug_abbrev  0x00010773      0x345 ../../../components/ble/library\libfr8010h_stack.a(app_conn.o)
- .debug_abbrev  0x00010ab8      0x28f ../../../components/ble/library\libfr8010h_stack.a(os_msg_q.o)
- .debug_abbrev  0x00010d47      0x3ba ../../../components/ble/library\libfr8010h_stack.a(os_task.o)
- .debug_abbrev  0x00011101      0x3c5 ../../../components/ble/library\libfr8010h_stack.a(m_al_scan.o)
+ .debug_abbrev  0x000005dd      0x465 build/d20_smartwatch/gfx.c.o
+ .debug_abbrev  0x00000a42       0xbe build/d20_smartwatch/FreeMono9pt7b.c.o
+ .debug_abbrev  0x00000b00      0x207 build/d20_smartwatch/proj_main.c.o
+ .debug_abbrev  0x00000d07      0x1bb build/d20_smartwatch/syscalls.c.o
+ .debug_abbrev  0x00000ec2      0x1bb build/d20_smartwatch/utils.c.o
+ .debug_abbrev  0x0000107d      0x3be build/d20_smartwatch/driver_ssp.c.o
+ .debug_abbrev  0x0000143b      0x188 build/d20_smartwatch/driver_keyscan.c.o
+ .debug_abbrev  0x000015c3      0x19b build/d20_smartwatch/driver_pmu_qdec.c.o
+ .debug_abbrev  0x0000175e      0x322 build/d20_smartwatch/driver_pmu.c.o
+ .debug_abbrev  0x00001a80      0x15b build/d20_smartwatch/driver_rtc.c.o
+ .debug_abbrev  0x00001bdb      0x177 build/d20_smartwatch/driver_wdt.c.o
+ .debug_abbrev  0x00001d52      0x1db build/d20_smartwatch/driver_efuse.c.o
+ .debug_abbrev  0x00001f2d      0x11d build/d20_smartwatch/exception_handlers.c.o
+ .debug_abbrev  0x0000204a       0xa1 build/d20_smartwatch/app_boot_vectors.c.o
+ .debug_abbrev  0x000020eb      0x412 build/d20_smartwatch/patch.c.o
+ .debug_abbrev  0x000024fd      0x59f ../../../components/ble/library\libfr8010h_stack.a(entry.o)
+ .debug_abbrev  0x00002a9c      0x40b ../../../components/ble/library\libfr8010h_stack.a(jump_table.o)
+ .debug_abbrev  0x00002ea7      0x591 ../../../components/ble/library\libfr8010h_stack.a(sys_utils.o)
+ .debug_abbrev  0x00003438      0x601 ../../../components/ble/library\libfr8010h_stack.a(patch_rf_fcc.o)
+ .debug_abbrev  0x00003a39      0x3cf ../../../components/ble/library\libfr8010h_stack.a(patch_rtos.o)
+ .debug_abbrev  0x00003e08      0x2e2 ../../../components/ble/library\libfr8010h_stack.a(patch_No_MD_bit.o)
+ .debug_abbrev  0x000040ea      0x346 ../../../components/ble/library\libfr8010h_stack.a(patch_task.o)
+ .debug_abbrev  0x00004430      0x1f7 ../../../components/ble/library\libfr8010h_stack.a(rwble_hl.o)
+ .debug_abbrev  0x00004627      0x2f1 ../../../components/ble/library\libfr8010h_stack.a(prf.o)
+ .debug_abbrev  0x00004918      0x31b ../../../components/ble/library\libfr8010h_stack.a(l2cm.o)
+ .debug_abbrev  0x00004c33      0x47b ../../../components/ble/library\libfr8010h_stack.a(l2cc.o)
+ .debug_abbrev  0x000050ae      0x3af ../../../components/ble/library\libfr8010h_stack.a(l2cc_lecb.o)
+ .debug_abbrev  0x0000545d      0x42b ../../../components/ble/library\libfr8010h_stack.a(l2cc_pdu.o)
+ .debug_abbrev  0x00005888      0x4d6 ../../../components/ble/library\libfr8010h_stack.a(l2cc_task.o)
+ .debug_abbrev  0x00005d5e      0x316 ../../../components/ble/library\libfr8010h_stack.a(gattm.o)
+ .debug_abbrev  0x00006074      0x239 ../../../components/ble/library\libfr8010h_stack.a(gattm_task.o)
+ .debug_abbrev  0x000062ad      0x40c ../../../components/ble/library\libfr8010h_stack.a(gattc.o)
+ .debug_abbrev  0x000066b9      0x4b6 ../../../components/ble/library\libfr8010h_stack.a(gattc_task.o)
+ .debug_abbrev  0x00006b6f      0x527 ../../../components/ble/library\libfr8010h_stack.a(atts.o)
+ .debug_abbrev  0x00007096      0x424 ../../../components/ble/library\libfr8010h_stack.a(attm.o)
+ .debug_abbrev  0x000074ba      0x405 ../../../components/ble/library\libfr8010h_stack.a(attm_db.o)
+ .debug_abbrev  0x000078bf      0x4cb ../../../components/ble/library\libfr8010h_stack.a(attc.o)
+ .debug_abbrev  0x00007d8a      0x528 ../../../components/ble/library\libfr8010h_stack.a(gapm.o)
+ .debug_abbrev  0x000082b2      0x487 ../../../components/ble/library\libfr8010h_stack.a(gapm_actv.o)
+ .debug_abbrev  0x00008739      0x424 ../../../components/ble/library\libfr8010h_stack.a(gapm_addr.o)
+ .debug_abbrev  0x00008b5d      0x469 ../../../components/ble/library\libfr8010h_stack.a(gapm_adv.o)
+ .debug_abbrev  0x00008fc6      0x3ee ../../../components/ble/library\libfr8010h_stack.a(gapm_init.o)
+ .debug_abbrev  0x000093b4      0x45e ../../../components/ble/library\libfr8010h_stack.a(gapm_per_sync.o)
+ .debug_abbrev  0x00009812      0x4aa ../../../components/ble/library\libfr8010h_stack.a(gapm_scan.o)
+ .debug_abbrev  0x00009cbc      0x308 ../../../components/ble/library\libfr8010h_stack.a(gapm_task.o)
+ .debug_abbrev  0x00009fc4      0x433 ../../../components/ble/library\libfr8010h_stack.a(gapc.o)
+ .debug_abbrev  0x0000a3f7      0x4ba ../../../components/ble/library\libfr8010h_stack.a(gapc_task.o)
+ .debug_abbrev  0x0000a8b1      0x313 ../../../components/ble/library\libfr8010h_stack.a(flash.o)
+ .debug_abbrev  0x0000abc4      0x481 ../../../components/ble/library\libfr8010h_stack.a(app.o)
+ .debug_abbrev  0x0000b045      0x22e ../../../components/ble/library\libfr8010h_stack.a(app_prf.o)
+ .debug_abbrev  0x0000b273      0x3cb ../../../components/ble/library\libfr8010h_stack.a(app_proj_event.o)
+ .debug_abbrev  0x0000b63e      0x51d ../../../components/ble/library\libfr8010h_stack.a(app_sec.o)
+ .debug_abbrev  0x0000bb5b      0x454 ../../../components/ble/library\libfr8010h_stack.a(app_task.o)
+ .debug_abbrev  0x0000bfaf      0x410 ../../../components/ble/library\libfr8010h_stack.a(user_bond_manage.o)
+ .debug_abbrev  0x0000c3bf      0x3cd ../../../components/ble/library\libfr8010h_stack.a(os_timer.o)
+ .debug_abbrev  0x0000c78c      0x473 ../../../components/ble/library\libfr8010h_stack.a(m_al_task.o)
+ .debug_abbrev  0x0000cbff      0x454 ../../../components/ble/library\libfr8010h_stack.a(mesh_api.o)
+ .debug_abbrev  0x0000d053      0x5e0 ../../../components/ble/library\libfr8010h_stack.a(gatt_api.o)
+ .debug_abbrev  0x0000d633      0x454 ../../../components/ble/library\libfr8010h_stack.a(gap_api.o)
+ .debug_abbrev  0x0000da87      0x46e ../../../components/ble/library\libfr8010h_stack.a(prf_utils.o)
+ .debug_abbrev  0x0000def5      0x48a ../../../components/ble/library\libfr8010h_stack.a(l2cc_sig.o)
+ .debug_abbrev  0x0000e37f      0x46b ../../../components/ble/library\libfr8010h_stack.a(smpc.o)
+ .debug_abbrev  0x0000e7ea      0x47c ../../../components/ble/library\libfr8010h_stack.a(smpc_api.o)
+ .debug_abbrev  0x0000ec66      0x344 ../../../components/ble/library\libfr8010h_stack.a(smpc_crypto.o)
+ .debug_abbrev  0x0000efaa      0x470 ../../../components/ble/library\libfr8010h_stack.a(smpc_util.o)
+ .debug_abbrev  0x0000f41a      0x411 ../../../components/ble/library\libfr8010h_stack.a(gapm_cfg.o)
+ .debug_abbrev  0x0000f82b      0x3e5 ../../../components/ble/library\libfr8010h_stack.a(gapm_list.o)
+ .debug_abbrev  0x0000fc10      0x415 ../../../components/ble/library\libfr8010h_stack.a(gapm_smp.o)
+ .debug_abbrev  0x00010025      0x3d6 ../../../components/ble/library\libfr8010h_stack.a(gapc_hci.o)
+ .debug_abbrev  0x000103fb      0x38f ../../../components/ble/library\libfr8010h_stack.a(gapc_sig.o)
+ .debug_abbrev  0x0001078a      0x345 ../../../components/ble/library\libfr8010h_stack.a(app_conn.o)
+ .debug_abbrev  0x00010acf      0x28f ../../../components/ble/library\libfr8010h_stack.a(os_msg_q.o)
+ .debug_abbrev  0x00010d5e      0x3ba ../../../components/ble/library\libfr8010h_stack.a(os_task.o)
+ .debug_abbrev  0x00011118      0x3c5 ../../../components/ble/library\libfr8010h_stack.a(m_al_scan.o)
 
-.debug_line     0x00000000    0x24512
+.debug_line     0x00000000    0x24545
  *(.debug_line)
  .debug_line    0x00000000      0x55c build/d20_smartwatch/app.c.o
  .debug_line    0x0000055c      0x66f build/d20_smartwatch/display.c.o
- .debug_line    0x00000bcb     0x2648 build/d20_smartwatch/gfx.c.o
- .debug_line    0x00003213      0x145 build/d20_smartwatch/FreeMono9pt7b.c.o
- .debug_line    0x00003358      0x3b8 build/d20_smartwatch/proj_main.c.o
- .debug_line    0x00003710      0x2fd build/d20_smartwatch/syscalls.c.o
- .debug_line    0x00003a0d      0x323 build/d20_smartwatch/utils.c.o
- .debug_line    0x00003d30      0xe7c build/d20_smartwatch/driver_ssp.c.o
- .debug_line    0x00004bac      0x485 build/d20_smartwatch/driver_keyscan.c.o
- .debug_line    0x00005031      0x334 build/d20_smartwatch/driver_pmu_qdec.c.o
- .debug_line    0x00005365      0xe4b build/d20_smartwatch/driver_pmu.c.o
- .debug_line    0x000061b0      0x2c6 build/d20_smartwatch/driver_rtc.c.o
- .debug_line    0x00006476      0x30f build/d20_smartwatch/driver_wdt.c.o
- .debug_line    0x00006785      0x51e build/d20_smartwatch/driver_efuse.c.o
- .debug_line    0x00006ca3      0x281 build/d20_smartwatch/exception_handlers.c.o
- .debug_line    0x00006f24       0x91 build/d20_smartwatch/app_boot_vectors.c.o
- .debug_line    0x00006fb5      0x731 build/d20_smartwatch/patch.c.o
- .debug_line    0x000076e6      0x933 ../../../components/ble/library\libfr8010h_stack.a(entry.o)
- .debug_line    0x00008019      0x77b ../../../components/ble/library\libfr8010h_stack.a(jump_table.o)
- .debug_line    0x00008794      0x7e8 ../../../components/ble/library\libfr8010h_stack.a(sys_utils.o)
- .debug_line    0x00008f7c     0x100a ../../../components/ble/library\libfr8010h_stack.a(patch_rf_fcc.o)
- .debug_line    0x00009f86      0x674 ../../../components/ble/library\libfr8010h_stack.a(patch_rtos.o)
- .debug_line    0x0000a5fa      0x582 ../../../components/ble/library\libfr8010h_stack.a(patch_No_MD_bit.o)
- .debug_line    0x0000ab7c      0x432 ../../../components/ble/library\libfr8010h_stack.a(patch_task.o)
- .debug_line    0x0000afae      0x36a ../../../components/ble/library\libfr8010h_stack.a(rwble_hl.o)
- .debug_line    0x0000b318      0x540 ../../../components/ble/library\libfr8010h_stack.a(prf.o)
- .debug_line    0x0000b858      0x4a8 ../../../components/ble/library\libfr8010h_stack.a(l2cm.o)
- .debug_line    0x0000bd00      0x7e4 ../../../components/ble/library\libfr8010h_stack.a(l2cc.o)
- .debug_line    0x0000c4e4      0x582 ../../../components/ble/library\libfr8010h_stack.a(l2cc_lecb.o)
- .debug_line    0x0000ca66      0xa89 ../../../components/ble/library\libfr8010h_stack.a(l2cc_pdu.o)
- .debug_line    0x0000d4ef      0x92c ../../../components/ble/library\libfr8010h_stack.a(l2cc_task.o)
- .debug_line    0x0000de1b      0x580 ../../../components/ble/library\libfr8010h_stack.a(gattm.o)
- .debug_line    0x0000e39b      0x43b ../../../components/ble/library\libfr8010h_stack.a(gattm_task.o)
- .debug_line    0x0000e7d6      0x67e ../../../components/ble/library\libfr8010h_stack.a(gattc.o)
- .debug_line    0x0000ee54      0xcd8 ../../../components/ble/library\libfr8010h_stack.a(gattc_task.o)
- .debug_line    0x0000fb2c      0xe7d ../../../components/ble/library\libfr8010h_stack.a(atts.o)
- .debug_line    0x000109a9      0x86a ../../../components/ble/library\libfr8010h_stack.a(attm.o)
- .debug_line    0x00011213      0x735 ../../../components/ble/library\libfr8010h_stack.a(attm_db.o)
- .debug_line    0x00011948      0xa32 ../../../components/ble/library\libfr8010h_stack.a(attc.o)
- .debug_line    0x0001237a      0x878 ../../../components/ble/library\libfr8010h_stack.a(gapm.o)
- .debug_line    0x00012bf2      0x6f4 ../../../components/ble/library\libfr8010h_stack.a(gapm_actv.o)
- .debug_line    0x000132e6      0x5ff ../../../components/ble/library\libfr8010h_stack.a(gapm_addr.o)
- .debug_line    0x000138e5      0x884 ../../../components/ble/library\libfr8010h_stack.a(gapm_adv.o)
- .debug_line    0x00014169      0x630 ../../../components/ble/library\libfr8010h_stack.a(gapm_init.o)
- .debug_line    0x00014799      0x629 ../../../components/ble/library\libfr8010h_stack.a(gapm_per_sync.o)
- .debug_line    0x00014dc2      0x724 ../../../components/ble/library\libfr8010h_stack.a(gapm_scan.o)
- .debug_line    0x000154e6      0x4a9 ../../../components/ble/library\libfr8010h_stack.a(gapm_task.o)
- .debug_line    0x0001598f      0x8b7 ../../../components/ble/library\libfr8010h_stack.a(gapc.o)
- .debug_line    0x00016246      0xbe8 ../../../components/ble/library\libfr8010h_stack.a(gapc_task.o)
- .debug_line    0x00016e2e      0x3f7 ../../../components/ble/library\libfr8010h_stack.a(flash.o)
- .debug_line    0x00017225      0xcfa ../../../components/ble/library\libfr8010h_stack.a(app.o)
- .debug_line    0x00017f1f      0x328 ../../../components/ble/library\libfr8010h_stack.a(app_prf.o)
- .debug_line    0x00018247      0x78c ../../../components/ble/library\libfr8010h_stack.a(app_proj_event.o)
- .debug_line    0x000189d3      0x892 ../../../components/ble/library\libfr8010h_stack.a(app_sec.o)
- .debug_line    0x00019265      0x9c8 ../../../components/ble/library\libfr8010h_stack.a(app_task.o)
- .debug_line    0x00019c2d      0x77d ../../../components/ble/library\libfr8010h_stack.a(user_bond_manage.o)
- .debug_line    0x0001a3aa      0x582 ../../../components/ble/library\libfr8010h_stack.a(os_timer.o)
- .debug_line    0x0001a92c      0x6e0 ../../../components/ble/library\libfr8010h_stack.a(m_al_task.o)
- .debug_line    0x0001b00c      0xb84 ../../../components/ble/library\libfr8010h_stack.a(mesh_api.o)
- .debug_line    0x0001bb90     0x1005 ../../../components/ble/library\libfr8010h_stack.a(gatt_api.o)
- .debug_line    0x0001cb95      0xbe9 ../../../components/ble/library\libfr8010h_stack.a(gap_api.o)
- .debug_line    0x0001d77e      0x66b ../../../components/ble/library\libfr8010h_stack.a(prf_utils.o)
- .debug_line    0x0001dde9      0x704 ../../../components/ble/library\libfr8010h_stack.a(l2cc_sig.o)
- .debug_line    0x0001e4ed      0xc10 ../../../components/ble/library\libfr8010h_stack.a(smpc.o)
- .debug_line    0x0001f0fd      0xb07 ../../../components/ble/library\libfr8010h_stack.a(smpc_api.o)
- .debug_line    0x0001fc04      0x659 ../../../components/ble/library\libfr8010h_stack.a(smpc_crypto.o)
- .debug_line    0x0002025d      0x966 ../../../components/ble/library\libfr8010h_stack.a(smpc_util.o)
- .debug_line    0x00020bc3      0xab4 ../../../components/ble/library\libfr8010h_stack.a(gapm_cfg.o)
- .debug_line    0x00021677      0x60d ../../../components/ble/library\libfr8010h_stack.a(gapm_list.o)
- .debug_line    0x00021c84      0x68e ../../../components/ble/library\libfr8010h_stack.a(gapm_smp.o)
- .debug_line    0x00022312      0x8c6 ../../../components/ble/library\libfr8010h_stack.a(gapc_hci.o)
- .debug_line    0x00022bd8      0x48b ../../../components/ble/library\libfr8010h_stack.a(gapc_sig.o)
- .debug_line    0x00023063      0x5d8 ../../../components/ble/library\libfr8010h_stack.a(app_conn.o)
- .debug_line    0x0002363b      0x38e ../../../components/ble/library\libfr8010h_stack.a(os_msg_q.o)
- .debug_line    0x000239c9      0x508 ../../../components/ble/library\libfr8010h_stack.a(os_task.o)
- .debug_line    0x00023ed1      0x641 ../../../components/ble/library\libfr8010h_stack.a(m_al_scan.o)
+ .debug_line    0x00000bcb     0x267b build/d20_smartwatch/gfx.c.o
+ .debug_line    0x00003246      0x145 build/d20_smartwatch/FreeMono9pt7b.c.o
+ .debug_line    0x0000338b      0x3b8 build/d20_smartwatch/proj_main.c.o
+ .debug_line    0x00003743      0x2fd build/d20_smartwatch/syscalls.c.o
+ .debug_line    0x00003a40      0x323 build/d20_smartwatch/utils.c.o
+ .debug_line    0x00003d63      0xe7c build/d20_smartwatch/driver_ssp.c.o
+ .debug_line    0x00004bdf      0x485 build/d20_smartwatch/driver_keyscan.c.o
+ .debug_line    0x00005064      0x334 build/d20_smartwatch/driver_pmu_qdec.c.o
+ .debug_line    0x00005398      0xe4b build/d20_smartwatch/driver_pmu.c.o
+ .debug_line    0x000061e3      0x2c6 build/d20_smartwatch/driver_rtc.c.o
+ .debug_line    0x000064a9      0x30f build/d20_smartwatch/driver_wdt.c.o
+ .debug_line    0x000067b8      0x51e build/d20_smartwatch/driver_efuse.c.o
+ .debug_line    0x00006cd6      0x281 build/d20_smartwatch/exception_handlers.c.o
+ .debug_line    0x00006f57       0x91 build/d20_smartwatch/app_boot_vectors.c.o
+ .debug_line    0x00006fe8      0x731 build/d20_smartwatch/patch.c.o
+ .debug_line    0x00007719      0x933 ../../../components/ble/library\libfr8010h_stack.a(entry.o)
+ .debug_line    0x0000804c      0x77b ../../../components/ble/library\libfr8010h_stack.a(jump_table.o)
+ .debug_line    0x000087c7      0x7e8 ../../../components/ble/library\libfr8010h_stack.a(sys_utils.o)
+ .debug_line    0x00008faf     0x100a ../../../components/ble/library\libfr8010h_stack.a(patch_rf_fcc.o)
+ .debug_line    0x00009fb9      0x674 ../../../components/ble/library\libfr8010h_stack.a(patch_rtos.o)
+ .debug_line    0x0000a62d      0x582 ../../../components/ble/library\libfr8010h_stack.a(patch_No_MD_bit.o)
+ .debug_line    0x0000abaf      0x432 ../../../components/ble/library\libfr8010h_stack.a(patch_task.o)
+ .debug_line    0x0000afe1      0x36a ../../../components/ble/library\libfr8010h_stack.a(rwble_hl.o)
+ .debug_line    0x0000b34b      0x540 ../../../components/ble/library\libfr8010h_stack.a(prf.o)
+ .debug_line    0x0000b88b      0x4a8 ../../../components/ble/library\libfr8010h_stack.a(l2cm.o)
+ .debug_line    0x0000bd33      0x7e4 ../../../components/ble/library\libfr8010h_stack.a(l2cc.o)
+ .debug_line    0x0000c517      0x582 ../../../components/ble/library\libfr8010h_stack.a(l2cc_lecb.o)
+ .debug_line    0x0000ca99      0xa89 ../../../components/ble/library\libfr8010h_stack.a(l2cc_pdu.o)
+ .debug_line    0x0000d522      0x92c ../../../components/ble/library\libfr8010h_stack.a(l2cc_task.o)
+ .debug_line    0x0000de4e      0x580 ../../../components/ble/library\libfr8010h_stack.a(gattm.o)
+ .debug_line    0x0000e3ce      0x43b ../../../components/ble/library\libfr8010h_stack.a(gattm_task.o)
+ .debug_line    0x0000e809      0x67e ../../../components/ble/library\libfr8010h_stack.a(gattc.o)
+ .debug_line    0x0000ee87      0xcd8 ../../../components/ble/library\libfr8010h_stack.a(gattc_task.o)
+ .debug_line    0x0000fb5f      0xe7d ../../../components/ble/library\libfr8010h_stack.a(atts.o)
+ .debug_line    0x000109dc      0x86a ../../../components/ble/library\libfr8010h_stack.a(attm.o)
+ .debug_line    0x00011246      0x735 ../../../components/ble/library\libfr8010h_stack.a(attm_db.o)
+ .debug_line    0x0001197b      0xa32 ../../../components/ble/library\libfr8010h_stack.a(attc.o)
+ .debug_line    0x000123ad      0x878 ../../../components/ble/library\libfr8010h_stack.a(gapm.o)
+ .debug_line    0x00012c25      0x6f4 ../../../components/ble/library\libfr8010h_stack.a(gapm_actv.o)
+ .debug_line    0x00013319      0x5ff ../../../components/ble/library\libfr8010h_stack.a(gapm_addr.o)
+ .debug_line    0x00013918      0x884 ../../../components/ble/library\libfr8010h_stack.a(gapm_adv.o)
+ .debug_line    0x0001419c      0x630 ../../../components/ble/library\libfr8010h_stack.a(gapm_init.o)
+ .debug_line    0x000147cc      0x629 ../../../components/ble/library\libfr8010h_stack.a(gapm_per_sync.o)
+ .debug_line    0x00014df5      0x724 ../../../components/ble/library\libfr8010h_stack.a(gapm_scan.o)
+ .debug_line    0x00015519      0x4a9 ../../../components/ble/library\libfr8010h_stack.a(gapm_task.o)
+ .debug_line    0x000159c2      0x8b7 ../../../components/ble/library\libfr8010h_stack.a(gapc.o)
+ .debug_line    0x00016279      0xbe8 ../../../components/ble/library\libfr8010h_stack.a(gapc_task.o)
+ .debug_line    0x00016e61      0x3f7 ../../../components/ble/library\libfr8010h_stack.a(flash.o)
+ .debug_line    0x00017258      0xcfa ../../../components/ble/library\libfr8010h_stack.a(app.o)
+ .debug_line    0x00017f52      0x328 ../../../components/ble/library\libfr8010h_stack.a(app_prf.o)
+ .debug_line    0x0001827a      0x78c ../../../components/ble/library\libfr8010h_stack.a(app_proj_event.o)
+ .debug_line    0x00018a06      0x892 ../../../components/ble/library\libfr8010h_stack.a(app_sec.o)
+ .debug_line    0x00019298      0x9c8 ../../../components/ble/library\libfr8010h_stack.a(app_task.o)
+ .debug_line    0x00019c60      0x77d ../../../components/ble/library\libfr8010h_stack.a(user_bond_manage.o)
+ .debug_line    0x0001a3dd      0x582 ../../../components/ble/library\libfr8010h_stack.a(os_timer.o)
+ .debug_line    0x0001a95f      0x6e0 ../../../components/ble/library\libfr8010h_stack.a(m_al_task.o)
+ .debug_line    0x0001b03f      0xb84 ../../../components/ble/library\libfr8010h_stack.a(mesh_api.o)
+ .debug_line    0x0001bbc3     0x1005 ../../../components/ble/library\libfr8010h_stack.a(gatt_api.o)
+ .debug_line    0x0001cbc8      0xbe9 ../../../components/ble/library\libfr8010h_stack.a(gap_api.o)
+ .debug_line    0x0001d7b1      0x66b ../../../components/ble/library\libfr8010h_stack.a(prf_utils.o)
+ .debug_line    0x0001de1c      0x704 ../../../components/ble/library\libfr8010h_stack.a(l2cc_sig.o)
+ .debug_line    0x0001e520      0xc10 ../../../components/ble/library\libfr8010h_stack.a(smpc.o)
+ .debug_line    0x0001f130      0xb07 ../../../components/ble/library\libfr8010h_stack.a(smpc_api.o)
+ .debug_line    0x0001fc37      0x659 ../../../components/ble/library\libfr8010h_stack.a(smpc_crypto.o)
+ .debug_line    0x00020290      0x966 ../../../components/ble/library\libfr8010h_stack.a(smpc_util.o)
+ .debug_line    0x00020bf6      0xab4 ../../../components/ble/library\libfr8010h_stack.a(gapm_cfg.o)
+ .debug_line    0x000216aa      0x60d ../../../components/ble/library\libfr8010h_stack.a(gapm_list.o)
+ .debug_line    0x00021cb7      0x68e ../../../components/ble/library\libfr8010h_stack.a(gapm_smp.o)
+ .debug_line    0x00022345      0x8c6 ../../../components/ble/library\libfr8010h_stack.a(gapc_hci.o)
+ .debug_line    0x00022c0b      0x48b ../../../components/ble/library\libfr8010h_stack.a(gapc_sig.o)
+ .debug_line    0x00023096      0x5d8 ../../../components/ble/library\libfr8010h_stack.a(app_conn.o)
+ .debug_line    0x0002366e      0x38e ../../../components/ble/library\libfr8010h_stack.a(os_msg_q.o)
+ .debug_line    0x000239fc      0x508 ../../../components/ble/library\libfr8010h_stack.a(os_task.o)
+ .debug_line    0x00023f04      0x641 ../../../components/ble/library\libfr8010h_stack.a(m_al_scan.o)
 
-.debug_frame    0x00000000     0xa764
+.debug_frame    0x00000000     0xa738
  *(.debug_frame)
  .debug_frame   0x00000000       0x90 build/d20_smartwatch/app.c.o
  .debug_frame   0x00000090      0x1a8 build/d20_smartwatch/display.c.o
- .debug_frame   0x00000238      0x780 build/d20_smartwatch/gfx.c.o
- .debug_frame   0x000009b8       0xa4 build/d20_smartwatch/proj_main.c.o
- .debug_frame   0x00000a5c       0xd0 build/d20_smartwatch/syscalls.c.o
- .debug_frame   0x00000b2c       0x8c build/d20_smartwatch/utils.c.o
- .debug_frame   0x00000bb8      0x174 build/d20_smartwatch/driver_ssp.c.o
- .debug_frame   0x00000d2c       0x6c build/d20_smartwatch/driver_keyscan.c.o
- .debug_frame   0x00000d98       0xd0 build/d20_smartwatch/driver_pmu_qdec.c.o
- .debug_frame   0x00000e68      0x414 build/d20_smartwatch/driver_pmu.c.o
- .debug_frame   0x0000127c       0x88 build/d20_smartwatch/driver_rtc.c.o
- .debug_frame   0x00001304       0xb4 build/d20_smartwatch/driver_wdt.c.o
- .debug_frame   0x000013b8       0xa4 build/d20_smartwatch/driver_efuse.c.o
- .debug_frame   0x0000145c       0xe0 build/d20_smartwatch/exception_handlers.c.o
- .debug_frame   0x0000153c       0x20 build/d20_smartwatch/app_boot_vectors.c.o
- .debug_frame   0x0000155c      0x180 build/d20_smartwatch/patch.c.o
- .debug_frame   0x000016dc      0x1d4 ../../../components/ble/library\libfr8010h_stack.a(entry.o)
- .debug_frame   0x000018b0       0xec ../../../components/ble/library\libfr8010h_stack.a(jump_table.o)
- .debug_frame   0x0000199c      0x334 ../../../components/ble/library\libfr8010h_stack.a(sys_utils.o)
- .debug_frame   0x00001cd0      0x3b4 ../../../components/ble/library\libfr8010h_stack.a(patch_rf_fcc.o)
- .debug_frame   0x00002084       0x60 ../../../components/ble/library\libfr8010h_stack.a(patch_rtos.o)
- .debug_frame   0x000020e4       0xa8 ../../../components/ble/library\libfr8010h_stack.a(patch_No_MD_bit.o)
- .debug_frame   0x0000218c       0x88 ../../../components/ble/library\libfr8010h_stack.a(patch_task.o)
- .debug_frame   0x00002214       0x48 ../../../components/ble/library\libfr8010h_stack.a(rwble_hl.o)
- .debug_frame   0x0000225c      0x114 ../../../components/ble/library\libfr8010h_stack.a(prf.o)
- .debug_frame   0x00002370       0xc0 ../../../components/ble/library\libfr8010h_stack.a(l2cm.o)
- .debug_frame   0x00002430      0x160 ../../../components/ble/library\libfr8010h_stack.a(l2cc.o)
- .debug_frame   0x00002590      0x158 ../../../components/ble/library\libfr8010h_stack.a(l2cc_lecb.o)
- .debug_frame   0x000026e8      0x12c ../../../components/ble/library\libfr8010h_stack.a(l2cc_pdu.o)
- .debug_frame   0x00002814      0x210 ../../../components/ble/library\libfr8010h_stack.a(l2cc_task.o)
- .debug_frame   0x00002a24       0x7c ../../../components/ble/library\libfr8010h_stack.a(gattm.o)
- .debug_frame   0x00002aa0       0x20 ../../../components/ble/library\libfr8010h_stack.a(gattm_task.o)
- .debug_frame   0x00002ac0      0x1c8 ../../../components/ble/library\libfr8010h_stack.a(gattc.o)
- .debug_frame   0x00002c88      0x3d0 ../../../components/ble/library\libfr8010h_stack.a(gattc_task.o)
- .debug_frame   0x00003058      0x43c ../../../components/ble/library\libfr8010h_stack.a(atts.o)
- .debug_frame   0x00003494      0x230 ../../../components/ble/library\libfr8010h_stack.a(attm.o)
- .debug_frame   0x000036c4      0x144 ../../../components/ble/library\libfr8010h_stack.a(attm_db.o)
- .debug_frame   0x00003808      0x270 ../../../components/ble/library\libfr8010h_stack.a(attc.o)
- .debug_frame   0x00003a78      0x31c ../../../components/ble/library\libfr8010h_stack.a(gapm.o)
- .debug_frame   0x00003d94      0x224 ../../../components/ble/library\libfr8010h_stack.a(gapm_actv.o)
- .debug_frame   0x00003fb8      0x168 ../../../components/ble/library\libfr8010h_stack.a(gapm_addr.o)
- .debug_frame   0x00004120      0x178 ../../../components/ble/library\libfr8010h_stack.a(gapm_adv.o)
- .debug_frame   0x00004298      0x124 ../../../components/ble/library\libfr8010h_stack.a(gapm_init.o)
- .debug_frame   0x000043bc      0x140 ../../../components/ble/library\libfr8010h_stack.a(gapm_per_sync.o)
- .debug_frame   0x000044fc      0x164 ../../../components/ble/library\libfr8010h_stack.a(gapm_scan.o)
- .debug_frame   0x00004660       0x60 ../../../components/ble/library\libfr8010h_stack.a(gapm_task.o)
- .debug_frame   0x000046c0      0x314 ../../../components/ble/library\libfr8010h_stack.a(gapc.o)
- .debug_frame   0x000049d4      0x464 ../../../components/ble/library\libfr8010h_stack.a(gapc_task.o)
- .debug_frame   0x00004e38      0x148 ../../../components/ble/library\libfr8010h_stack.a(flash.o)
- .debug_frame   0x00004f80      0x568 ../../../components/ble/library\libfr8010h_stack.a(app.o)
- .debug_frame   0x000054e8       0x30 ../../../components/ble/library\libfr8010h_stack.a(app_prf.o)
- .debug_frame   0x00005518      0x2d4 ../../../components/ble/library\libfr8010h_stack.a(app_proj_event.o)
- .debug_frame   0x000057ec      0x258 ../../../components/ble/library\libfr8010h_stack.a(app_sec.o)
- .debug_frame   0x00005a44      0x2fc ../../../components/ble/library\libfr8010h_stack.a(app_task.o)
- .debug_frame   0x00005d40      0x2ac ../../../components/ble/library\libfr8010h_stack.a(user_bond_manage.o)
- .debug_frame   0x00005fec       0xf0 ../../../components/ble/library\libfr8010h_stack.a(os_timer.o)
- .debug_frame   0x000060dc      0x19c ../../../components/ble/library\libfr8010h_stack.a(m_al_task.o)
- .debug_frame   0x00006278      0x51c ../../../components/ble/library\libfr8010h_stack.a(mesh_api.o)
- .debug_frame   0x00006794      0x6c4 ../../../components/ble/library\libfr8010h_stack.a(gatt_api.o)
- .debug_frame   0x00006e58      0x548 ../../../components/ble/library\libfr8010h_stack.a(gap_api.o)
- .debug_frame   0x000073a0      0x1d8 ../../../components/ble/library\libfr8010h_stack.a(prf_utils.o)
- .debug_frame   0x00007578      0x170 ../../../components/ble/library\libfr8010h_stack.a(l2cc_sig.o)
- .debug_frame   0x000076e8      0x508 ../../../components/ble/library\libfr8010h_stack.a(smpc.o)
- .debug_frame   0x00007bf0      0x2d0 ../../../components/ble/library\libfr8010h_stack.a(smpc_api.o)
- .debug_frame   0x00007ec0      0x200 ../../../components/ble/library\libfr8010h_stack.a(smpc_crypto.o)
- .debug_frame   0x000080c0      0x328 ../../../components/ble/library\libfr8010h_stack.a(smpc_util.o)
- .debug_frame   0x000083e8      0x334 ../../../components/ble/library\libfr8010h_stack.a(gapm_cfg.o)
- .debug_frame   0x0000871c       0xf0 ../../../components/ble/library\libfr8010h_stack.a(gapm_list.o)
- .debug_frame   0x0000880c      0x16c ../../../components/ble/library\libfr8010h_stack.a(gapm_smp.o)
- .debug_frame   0x00008978      0x298 ../../../components/ble/library\libfr8010h_stack.a(gapc_hci.o)
- .debug_frame   0x00008c10       0x98 ../../../components/ble/library\libfr8010h_stack.a(gapc_sig.o)
- .debug_frame   0x00008ca8       0xf8 ../../../components/ble/library\libfr8010h_stack.a(app_conn.o)
- .debug_frame   0x00008da0       0x64 ../../../components/ble/library\libfr8010h_stack.a(os_msg_q.o)
- .debug_frame   0x00008e04      0x124 ../../../components/ble/library\libfr8010h_stack.a(os_task.o)
- .debug_frame   0x00008f28      0x11c ../../../components/ble/library\libfr8010h_stack.a(m_al_scan.o)
- .debug_frame   0x00009044       0xac C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x000090f0       0x50 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x00009140       0xc4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x00009204       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
- .debug_frame   0x00009228       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
- .debug_frame   0x0000924c       0x4c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
- .debug_frame   0x00009298       0x38 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
- .debug_frame   0x000092d0      0x13c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-findfp.o)
- .debug_frame   0x0000940c       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-fwalk.o)
- .debug_frame   0x00009440       0x80 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-sprintf.o)
- .debug_frame   0x000094c0       0x8c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-stdio.o)
- .debug_frame   0x0000954c       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-closer.o)
- .debug_frame   0x00009578       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-reent.o)
- .debug_frame   0x000095b4       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-lseekr.o)
- .debug_frame   0x000095e0       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-readr.o)
- .debug_frame   0x0000960c       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-writer.o)
- .debug_frame   0x00009638       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-errno.o)
- .debug_frame   0x00009658       0xb0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
- .debug_frame   0x00009708       0x5c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
- .debug_frame   0x00009764       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-atexit.o)
- .debug_frame   0x00009784       0x78 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-freer.o)
- .debug_frame   0x000097fc       0x48 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-mallocr.o)
- .debug_frame   0x00009844       0x30 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-mlock.o)
- .debug_frame   0x00009874       0x44 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-svfprintf.o)
- .debug_frame   0x000098b8       0x30 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-ssprint_r.o)
- .debug_frame   0x000098e8       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-fclose.o)
- .debug_frame   0x00009924       0x70 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-fflush.o)
- .debug_frame   0x00009994       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-strncpy.o)
- .debug_frame   0x000099bc       0xdc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-locale.o)
- .debug_frame   0x00009a98       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-localeconv.o)
- .debug_frame   0x00009ad8       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-sbrkr.o)
- .debug_frame   0x00009b04       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-fini.o)
- .debug_frame   0x00009b38       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-sysconf.o)
- .debug_frame   0x00009b60       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-memchr-stub.o)
- .debug_frame   0x00009b8c       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-strlen-stub.o)
- .debug_frame   0x00009bac       0x30 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libm_a-s_frexp.o)
- .debug_frame   0x00009bdc       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-__atexit.o)
- .debug_frame   0x00009c10       0x84 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-dtoa.o)
- .debug_frame   0x00009c94      0x130 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-mbtowc_r.o)
- .debug_frame   0x00009dc4      0x270 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-mprec.o)
- .debug_frame   0x0000a034       0x9c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-wctomb_r.o)
- .debug_frame   0x0000a0d0       0x60 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-wcrtomb.o)
- .debug_frame   0x0000a130       0x50 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-wcsrtombs.o)
- .debug_frame   0x0000a180       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-ctype_.o)
- .debug_frame   0x0000a1a0       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-ssputs_r.o)
- .debug_frame   0x0000a1d4       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-memmove.o)
- .debug_frame   0x0000a214       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-assert.o)
- .debug_frame   0x0000a254       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-callocr.o)
- .debug_frame   0x0000a280       0x48 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-reallocr.o)
- .debug_frame   0x0000a2c8       0x8c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-wcsnrtombs.o)
- .debug_frame   0x0000a354       0x6c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-fiprintf.o)
- .debug_frame   0x0000a3c0       0x88 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-vfiprintf.o)
- .debug_frame   0x0000a448       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-sprint_r.o)
- .debug_frame   0x0000a470       0x64 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-fvwrite.o)
- .debug_frame   0x0000a4d4       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-wsetup.o)
- .debug_frame   0x0000a500       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-abort.o)
- .debug_frame   0x0000a528       0x70 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-makebuf.o)
- .debug_frame   0x0000a598      0x118 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-signal.o)
- .debug_frame   0x0000a6b0       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-fstatr.o)
- .debug_frame   0x0000a6dc       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-isattyr.o)
- .debug_frame   0x0000a708       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-signalr.o)
- .debug_frame   0x0000a744       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x00000238      0x754 build/d20_smartwatch/gfx.c.o
+ .debug_frame   0x0000098c       0xa4 build/d20_smartwatch/proj_main.c.o
+ .debug_frame   0x00000a30       0xd0 build/d20_smartwatch/syscalls.c.o
+ .debug_frame   0x00000b00       0x8c build/d20_smartwatch/utils.c.o
+ .debug_frame   0x00000b8c      0x174 build/d20_smartwatch/driver_ssp.c.o
+ .debug_frame   0x00000d00       0x6c build/d20_smartwatch/driver_keyscan.c.o
+ .debug_frame   0x00000d6c       0xd0 build/d20_smartwatch/driver_pmu_qdec.c.o
+ .debug_frame   0x00000e3c      0x414 build/d20_smartwatch/driver_pmu.c.o
+ .debug_frame   0x00001250       0x88 build/d20_smartwatch/driver_rtc.c.o
+ .debug_frame   0x000012d8       0xb4 build/d20_smartwatch/driver_wdt.c.o
+ .debug_frame   0x0000138c       0xa4 build/d20_smartwatch/driver_efuse.c.o
+ .debug_frame   0x00001430       0xe0 build/d20_smartwatch/exception_handlers.c.o
+ .debug_frame   0x00001510       0x20 build/d20_smartwatch/app_boot_vectors.c.o
+ .debug_frame   0x00001530      0x180 build/d20_smartwatch/patch.c.o
+ .debug_frame   0x000016b0      0x1d4 ../../../components/ble/library\libfr8010h_stack.a(entry.o)
+ .debug_frame   0x00001884       0xec ../../../components/ble/library\libfr8010h_stack.a(jump_table.o)
+ .debug_frame   0x00001970      0x334 ../../../components/ble/library\libfr8010h_stack.a(sys_utils.o)
+ .debug_frame   0x00001ca4      0x3b4 ../../../components/ble/library\libfr8010h_stack.a(patch_rf_fcc.o)
+ .debug_frame   0x00002058       0x60 ../../../components/ble/library\libfr8010h_stack.a(patch_rtos.o)
+ .debug_frame   0x000020b8       0xa8 ../../../components/ble/library\libfr8010h_stack.a(patch_No_MD_bit.o)
+ .debug_frame   0x00002160       0x88 ../../../components/ble/library\libfr8010h_stack.a(patch_task.o)
+ .debug_frame   0x000021e8       0x48 ../../../components/ble/library\libfr8010h_stack.a(rwble_hl.o)
+ .debug_frame   0x00002230      0x114 ../../../components/ble/library\libfr8010h_stack.a(prf.o)
+ .debug_frame   0x00002344       0xc0 ../../../components/ble/library\libfr8010h_stack.a(l2cm.o)
+ .debug_frame   0x00002404      0x160 ../../../components/ble/library\libfr8010h_stack.a(l2cc.o)
+ .debug_frame   0x00002564      0x158 ../../../components/ble/library\libfr8010h_stack.a(l2cc_lecb.o)
+ .debug_frame   0x000026bc      0x12c ../../../components/ble/library\libfr8010h_stack.a(l2cc_pdu.o)
+ .debug_frame   0x000027e8      0x210 ../../../components/ble/library\libfr8010h_stack.a(l2cc_task.o)
+ .debug_frame   0x000029f8       0x7c ../../../components/ble/library\libfr8010h_stack.a(gattm.o)
+ .debug_frame   0x00002a74       0x20 ../../../components/ble/library\libfr8010h_stack.a(gattm_task.o)
+ .debug_frame   0x00002a94      0x1c8 ../../../components/ble/library\libfr8010h_stack.a(gattc.o)
+ .debug_frame   0x00002c5c      0x3d0 ../../../components/ble/library\libfr8010h_stack.a(gattc_task.o)
+ .debug_frame   0x0000302c      0x43c ../../../components/ble/library\libfr8010h_stack.a(atts.o)
+ .debug_frame   0x00003468      0x230 ../../../components/ble/library\libfr8010h_stack.a(attm.o)
+ .debug_frame   0x00003698      0x144 ../../../components/ble/library\libfr8010h_stack.a(attm_db.o)
+ .debug_frame   0x000037dc      0x270 ../../../components/ble/library\libfr8010h_stack.a(attc.o)
+ .debug_frame   0x00003a4c      0x31c ../../../components/ble/library\libfr8010h_stack.a(gapm.o)
+ .debug_frame   0x00003d68      0x224 ../../../components/ble/library\libfr8010h_stack.a(gapm_actv.o)
+ .debug_frame   0x00003f8c      0x168 ../../../components/ble/library\libfr8010h_stack.a(gapm_addr.o)
+ .debug_frame   0x000040f4      0x178 ../../../components/ble/library\libfr8010h_stack.a(gapm_adv.o)
+ .debug_frame   0x0000426c      0x124 ../../../components/ble/library\libfr8010h_stack.a(gapm_init.o)
+ .debug_frame   0x00004390      0x140 ../../../components/ble/library\libfr8010h_stack.a(gapm_per_sync.o)
+ .debug_frame   0x000044d0      0x164 ../../../components/ble/library\libfr8010h_stack.a(gapm_scan.o)
+ .debug_frame   0x00004634       0x60 ../../../components/ble/library\libfr8010h_stack.a(gapm_task.o)
+ .debug_frame   0x00004694      0x314 ../../../components/ble/library\libfr8010h_stack.a(gapc.o)
+ .debug_frame   0x000049a8      0x464 ../../../components/ble/library\libfr8010h_stack.a(gapc_task.o)
+ .debug_frame   0x00004e0c      0x148 ../../../components/ble/library\libfr8010h_stack.a(flash.o)
+ .debug_frame   0x00004f54      0x568 ../../../components/ble/library\libfr8010h_stack.a(app.o)
+ .debug_frame   0x000054bc       0x30 ../../../components/ble/library\libfr8010h_stack.a(app_prf.o)
+ .debug_frame   0x000054ec      0x2d4 ../../../components/ble/library\libfr8010h_stack.a(app_proj_event.o)
+ .debug_frame   0x000057c0      0x258 ../../../components/ble/library\libfr8010h_stack.a(app_sec.o)
+ .debug_frame   0x00005a18      0x2fc ../../../components/ble/library\libfr8010h_stack.a(app_task.o)
+ .debug_frame   0x00005d14      0x2ac ../../../components/ble/library\libfr8010h_stack.a(user_bond_manage.o)
+ .debug_frame   0x00005fc0       0xf0 ../../../components/ble/library\libfr8010h_stack.a(os_timer.o)
+ .debug_frame   0x000060b0      0x19c ../../../components/ble/library\libfr8010h_stack.a(m_al_task.o)
+ .debug_frame   0x0000624c      0x51c ../../../components/ble/library\libfr8010h_stack.a(mesh_api.o)
+ .debug_frame   0x00006768      0x6c4 ../../../components/ble/library\libfr8010h_stack.a(gatt_api.o)
+ .debug_frame   0x00006e2c      0x548 ../../../components/ble/library\libfr8010h_stack.a(gap_api.o)
+ .debug_frame   0x00007374      0x1d8 ../../../components/ble/library\libfr8010h_stack.a(prf_utils.o)
+ .debug_frame   0x0000754c      0x170 ../../../components/ble/library\libfr8010h_stack.a(l2cc_sig.o)
+ .debug_frame   0x000076bc      0x508 ../../../components/ble/library\libfr8010h_stack.a(smpc.o)
+ .debug_frame   0x00007bc4      0x2d0 ../../../components/ble/library\libfr8010h_stack.a(smpc_api.o)
+ .debug_frame   0x00007e94      0x200 ../../../components/ble/library\libfr8010h_stack.a(smpc_crypto.o)
+ .debug_frame   0x00008094      0x328 ../../../components/ble/library\libfr8010h_stack.a(smpc_util.o)
+ .debug_frame   0x000083bc      0x334 ../../../components/ble/library\libfr8010h_stack.a(gapm_cfg.o)
+ .debug_frame   0x000086f0       0xf0 ../../../components/ble/library\libfr8010h_stack.a(gapm_list.o)
+ .debug_frame   0x000087e0      0x16c ../../../components/ble/library\libfr8010h_stack.a(gapm_smp.o)
+ .debug_frame   0x0000894c      0x298 ../../../components/ble/library\libfr8010h_stack.a(gapc_hci.o)
+ .debug_frame   0x00008be4       0x98 ../../../components/ble/library\libfr8010h_stack.a(gapc_sig.o)
+ .debug_frame   0x00008c7c       0xf8 ../../../components/ble/library\libfr8010h_stack.a(app_conn.o)
+ .debug_frame   0x00008d74       0x64 ../../../components/ble/library\libfr8010h_stack.a(os_msg_q.o)
+ .debug_frame   0x00008dd8      0x124 ../../../components/ble/library\libfr8010h_stack.a(os_task.o)
+ .debug_frame   0x00008efc      0x11c ../../../components/ble/library\libfr8010h_stack.a(m_al_scan.o)
+ .debug_frame   0x00009018       0xac C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x000090c4       0x50 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x00009114       0xc4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x000091d8       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x000091fc       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x00009220       0x4c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x0000926c       0x38 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x000092a4      0x13c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-findfp.o)
+ .debug_frame   0x000093e0       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-fwalk.o)
+ .debug_frame   0x00009414       0x80 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-sprintf.o)
+ .debug_frame   0x00009494       0x8c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-stdio.o)
+ .debug_frame   0x00009520       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-closer.o)
+ .debug_frame   0x0000954c       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-reent.o)
+ .debug_frame   0x00009588       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-lseekr.o)
+ .debug_frame   0x000095b4       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-readr.o)
+ .debug_frame   0x000095e0       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-writer.o)
+ .debug_frame   0x0000960c       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-errno.o)
+ .debug_frame   0x0000962c       0xb0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
+ .debug_frame   0x000096dc       0x5c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .debug_frame   0x00009738       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-atexit.o)
+ .debug_frame   0x00009758       0x78 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-freer.o)
+ .debug_frame   0x000097d0       0x48 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-mallocr.o)
+ .debug_frame   0x00009818       0x30 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-mlock.o)
+ .debug_frame   0x00009848       0x44 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-svfprintf.o)
+ .debug_frame   0x0000988c       0x30 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-ssprint_r.o)
+ .debug_frame   0x000098bc       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-fclose.o)
+ .debug_frame   0x000098f8       0x70 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-fflush.o)
+ .debug_frame   0x00009968       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-strncpy.o)
+ .debug_frame   0x00009990       0xdc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-locale.o)
+ .debug_frame   0x00009a6c       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-localeconv.o)
+ .debug_frame   0x00009aac       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-sbrkr.o)
+ .debug_frame   0x00009ad8       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-fini.o)
+ .debug_frame   0x00009b0c       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-sysconf.o)
+ .debug_frame   0x00009b34       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-memchr-stub.o)
+ .debug_frame   0x00009b60       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-strlen-stub.o)
+ .debug_frame   0x00009b80       0x30 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libm_a-s_frexp.o)
+ .debug_frame   0x00009bb0       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-__atexit.o)
+ .debug_frame   0x00009be4       0x84 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-dtoa.o)
+ .debug_frame   0x00009c68      0x130 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-mbtowc_r.o)
+ .debug_frame   0x00009d98      0x270 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-mprec.o)
+ .debug_frame   0x0000a008       0x9c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-wctomb_r.o)
+ .debug_frame   0x0000a0a4       0x60 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-wcrtomb.o)
+ .debug_frame   0x0000a104       0x50 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-wcsrtombs.o)
+ .debug_frame   0x0000a154       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-ctype_.o)
+ .debug_frame   0x0000a174       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-ssputs_r.o)
+ .debug_frame   0x0000a1a8       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-memmove.o)
+ .debug_frame   0x0000a1e8       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-assert.o)
+ .debug_frame   0x0000a228       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-callocr.o)
+ .debug_frame   0x0000a254       0x48 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-reallocr.o)
+ .debug_frame   0x0000a29c       0x8c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-wcsnrtombs.o)
+ .debug_frame   0x0000a328       0x6c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-fiprintf.o)
+ .debug_frame   0x0000a394       0x88 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-vfiprintf.o)
+ .debug_frame   0x0000a41c       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-sprint_r.o)
+ .debug_frame   0x0000a444       0x64 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-fvwrite.o)
+ .debug_frame   0x0000a4a8       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-wsetup.o)
+ .debug_frame   0x0000a4d4       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-abort.o)
+ .debug_frame   0x0000a4fc       0x70 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-makebuf.o)
+ .debug_frame   0x0000a56c      0x118 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-signal.o)
+ .debug_frame   0x0000a684       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-fstatr.o)
+ .debug_frame   0x0000a6b0       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-isattyr.o)
+ .debug_frame   0x0000a6dc       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libg.a(libc_a-signalr.o)
+ .debug_frame   0x0000a718       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_unorddf2.o)
 
-.debug_str      0x00000000    0x22c59
+.debug_str      0x00000000    0x22c75
  *(.debug_str)
- .debug_str     0x00000000    0x22c59 build/d20_smartwatch/app.c.o
+ .debug_str     0x00000000    0x22c75 build/d20_smartwatch/app.c.o
                                 0x471 (size before relaxing)
- .debug_str     0x00022c59      0x5f2 build/d20_smartwatch/display.c.o
- .debug_str     0x00022c59      0x88f build/d20_smartwatch/gfx.c.o
- .debug_str     0x00022c59      0x293 build/d20_smartwatch/FreeMono9pt7b.c.o
- .debug_str     0x00022c59      0x9c0 build/d20_smartwatch/proj_main.c.o
- .debug_str     0x00022c59      0x38b build/d20_smartwatch/syscalls.c.o
- .debug_str     0x00022c59      0x340 build/d20_smartwatch/utils.c.o
- .debug_str     0x00022c59      0x4b7 build/d20_smartwatch/driver_ssp.c.o
- .debug_str     0x00022c59      0x38a build/d20_smartwatch/driver_keyscan.c.o
- .debug_str     0x00022c59      0x70f build/d20_smartwatch/driver_pmu_qdec.c.o
- .debug_str     0x00022c59      0xc59 build/d20_smartwatch/driver_pmu.c.o
- .debug_str     0x00022c59      0x2b0 build/d20_smartwatch/driver_rtc.c.o
- .debug_str     0x00022c59      0x2d4 build/d20_smartwatch/driver_wdt.c.o
- .debug_str     0x00022c59      0x327 build/d20_smartwatch/driver_efuse.c.o
- .debug_str     0x00022c59      0x305 build/d20_smartwatch/exception_handlers.c.o
- .debug_str     0x00022c59      0x28d build/d20_smartwatch/app_boot_vectors.c.o
- .debug_str     0x00022c59      0xc1e build/d20_smartwatch/patch.c.o
- .debug_str     0x00022c59     0x309c ../../../components/ble/library\libfr8010h_stack.a(entry.o)
- .debug_str     0x00022c59     0x3d17 ../../../components/ble/library\libfr8010h_stack.a(jump_table.o)
- .debug_str     0x00022c59     0x1b95 ../../../components/ble/library\libfr8010h_stack.a(sys_utils.o)
- .debug_str     0x00022c59     0x791c ../../../components/ble/library\libfr8010h_stack.a(patch_rf_fcc.o)
- .debug_str     0x00022c59     0x150d ../../../components/ble/library\libfr8010h_stack.a(patch_rtos.o)
- .debug_str     0x00022c59     0x1979 ../../../components/ble/library\libfr8010h_stack.a(patch_No_MD_bit.o)
- .debug_str     0x00022c59     0x10b4 ../../../components/ble/library\libfr8010h_stack.a(patch_task.o)
- .debug_str     0x00022c59      0xbc6 ../../../components/ble/library\libfr8010h_stack.a(rwble_hl.o)
- .debug_str     0x00022c59     0x242a ../../../components/ble/library\libfr8010h_stack.a(prf.o)
- .debug_str     0x00022c59     0x1223 ../../../components/ble/library\libfr8010h_stack.a(l2cm.o)
- .debug_str     0x00022c59     0x3786 ../../../components/ble/library\libfr8010h_stack.a(l2cc.o)
- .debug_str     0x00022c59     0x2845 ../../../components/ble/library\libfr8010h_stack.a(l2cc_lecb.o)
- .debug_str     0x00022c59     0x3da8 ../../../components/ble/library\libfr8010h_stack.a(l2cc_pdu.o)
- .debug_str     0x00022c59     0x457f ../../../components/ble/library\libfr8010h_stack.a(l2cc_task.o)
- .debug_str     0x00022c59     0x45e5 ../../../components/ble/library\libfr8010h_stack.a(gattm.o)
- .debug_str     0x00022c59     0x1509 ../../../components/ble/library\libfr8010h_stack.a(gattm_task.o)
- .debug_str     0x00022c59     0x2cd5 ../../../components/ble/library\libfr8010h_stack.a(gattc.o)
- .debug_str     0x00022c59     0x6b55 ../../../components/ble/library\libfr8010h_stack.a(gattc_task.o)
- .debug_str     0x00022c59     0x6911 ../../../components/ble/library\libfr8010h_stack.a(atts.o)
- .debug_str     0x00022c59     0x41d8 ../../../components/ble/library\libfr8010h_stack.a(attm.o)
- .debug_str     0x00022c59     0x3ffe ../../../components/ble/library\libfr8010h_stack.a(attm_db.o)
- .debug_str     0x00022c59     0x3d2c ../../../components/ble/library\libfr8010h_stack.a(attc.o)
- .debug_str     0x00022c59     0x6073 ../../../components/ble/library\libfr8010h_stack.a(gapm.o)
- .debug_str     0x00022c59     0x5dd8 ../../../components/ble/library\libfr8010h_stack.a(gapm_actv.o)
- .debug_str     0x00022c59     0x5768 ../../../components/ble/library\libfr8010h_stack.a(gapm_addr.o)
- .debug_str     0x00022c59     0x70e6 ../../../components/ble/library\libfr8010h_stack.a(gapm_adv.o)
- .debug_str     0x00022c59     0x63f2 ../../../components/ble/library\libfr8010h_stack.a(gapm_init.o)
- .debug_str     0x00022c59     0x5b4c ../../../components/ble/library\libfr8010h_stack.a(gapm_per_sync.o)
- .debug_str     0x00022c59     0x5b91 ../../../components/ble/library\libfr8010h_stack.a(gapm_scan.o)
- .debug_str     0x00022c59     0x4a0f ../../../components/ble/library\libfr8010h_stack.a(gapm_task.o)
- .debug_str     0x00022c59     0x3ff5 ../../../components/ble/library\libfr8010h_stack.a(gapc.o)
- .debug_str     0x00022c59     0xb1f1 ../../../components/ble/library\libfr8010h_stack.a(gapc_task.o)
- .debug_str     0x00022c59     0x1382 ../../../components/ble/library\libfr8010h_stack.a(flash.o)
- .debug_str     0x00022c59     0x5bf7 ../../../components/ble/library\libfr8010h_stack.a(app.o)
- .debug_str     0x00022c59      0xebe ../../../components/ble/library\libfr8010h_stack.a(app_prf.o)
- .debug_str     0x00022c59     0x3cb4 ../../../components/ble/library\libfr8010h_stack.a(app_proj_event.o)
- .debug_str     0x00022c59     0x3eae ../../../components/ble/library\libfr8010h_stack.a(app_sec.o)
- .debug_str     0x00022c59     0x6172 ../../../components/ble/library\libfr8010h_stack.a(app_task.o)
- .debug_str     0x00022c59     0x2450 ../../../components/ble/library\libfr8010h_stack.a(user_bond_manage.o)
- .debug_str     0x00022c59     0x14e9 ../../../components/ble/library\libfr8010h_stack.a(os_timer.o)
- .debug_str     0x00022c59     0x44df ../../../components/ble/library\libfr8010h_stack.a(m_al_task.o)
- .debug_str     0x00022c59     0x4cc4 ../../../components/ble/library\libfr8010h_stack.a(mesh_api.o)
- .debug_str     0x00022c59     0x554e ../../../components/ble/library\libfr8010h_stack.a(gatt_api.o)
- .debug_str     0x00022c59     0x5692 ../../../components/ble/library\libfr8010h_stack.a(gap_api.o)
- .debug_str     0x00022c59     0x2799 ../../../components/ble/library\libfr8010h_stack.a(prf_utils.o)
- .debug_str     0x00022c59     0x3c63 ../../../components/ble/library\libfr8010h_stack.a(l2cc_sig.o)
- .debug_str     0x00022c59     0x8294 ../../../components/ble/library\libfr8010h_stack.a(smpc.o)
- .debug_str     0x00022c59     0x452c ../../../components/ble/library\libfr8010h_stack.a(smpc_api.o)
- .debug_str     0x00022c59     0x10db ../../../components/ble/library\libfr8010h_stack.a(smpc_crypto.o)
- .debug_str     0x00022c59     0x4f2f ../../../components/ble/library\libfr8010h_stack.a(smpc_util.o)
- .debug_str     0x00022c59     0x789b ../../../components/ble/library\libfr8010h_stack.a(gapm_cfg.o)
- .debug_str     0x00022c59     0x5cb2 ../../../components/ble/library\libfr8010h_stack.a(gapm_list.o)
- .debug_str     0x00022c59     0x62b7 ../../../components/ble/library\libfr8010h_stack.a(gapm_smp.o)
- .debug_str     0x00022c59     0x797b ../../../components/ble/library\libfr8010h_stack.a(gapc_hci.o)
- .debug_str     0x00022c59     0x3b13 ../../../components/ble/library\libfr8010h_stack.a(gapc_sig.o)
- .debug_str     0x00022c59     0x41da ../../../components/ble/library\libfr8010h_stack.a(app_conn.o)
- .debug_str     0x00022c59      0x9eb ../../../components/ble/library\libfr8010h_stack.a(os_msg_q.o)
- .debug_str     0x00022c59      0xf9f ../../../components/ble/library\libfr8010h_stack.a(os_task.o)
- .debug_str     0x00022c59     0x4216 ../../../components/ble/library\libfr8010h_stack.a(m_al_scan.o)
+ .debug_str     0x00022c75      0x5f2 build/d20_smartwatch/display.c.o
+ .debug_str     0x00022c75      0x8a5 build/d20_smartwatch/gfx.c.o
+ .debug_str     0x00022c75      0x293 build/d20_smartwatch/FreeMono9pt7b.c.o
+ .debug_str     0x00022c75      0x9c0 build/d20_smartwatch/proj_main.c.o
+ .debug_str     0x00022c75      0x38b build/d20_smartwatch/syscalls.c.o
+ .debug_str     0x00022c75      0x340 build/d20_smartwatch/utils.c.o
+ .debug_str     0x00022c75      0x4b7 build/d20_smartwatch/driver_ssp.c.o
+ .debug_str     0x00022c75      0x38a build/d20_smartwatch/driver_keyscan.c.o
+ .debug_str     0x00022c75      0x70f build/d20_smartwatch/driver_pmu_qdec.c.o
+ .debug_str     0x00022c75      0xc59 build/d20_smartwatch/driver_pmu.c.o
+ .debug_str     0x00022c75      0x2b0 build/d20_smartwatch/driver_rtc.c.o
+ .debug_str     0x00022c75      0x2d4 build/d20_smartwatch/driver_wdt.c.o
+ .debug_str     0x00022c75      0x327 build/d20_smartwatch/driver_efuse.c.o
+ .debug_str     0x00022c75      0x305 build/d20_smartwatch/exception_handlers.c.o
+ .debug_str     0x00022c75      0x28d build/d20_smartwatch/app_boot_vectors.c.o
+ .debug_str     0x00022c75      0xc1e build/d20_smartwatch/patch.c.o
+ .debug_str     0x00022c75     0x309c ../../../components/ble/library\libfr8010h_stack.a(entry.o)
+ .debug_str     0x00022c75     0x3d17 ../../../components/ble/library\libfr8010h_stack.a(jump_table.o)
+ .debug_str     0x00022c75     0x1b95 ../../../components/ble/library\libfr8010h_stack.a(sys_utils.o)
+ .debug_str     0x00022c75     0x791c ../../../components/ble/library\libfr8010h_stack.a(patch_rf_fcc.o)
+ .debug_str     0x00022c75     0x150d ../../../components/ble/library\libfr8010h_stack.a(patch_rtos.o)
+ .debug_str     0x00022c75     0x1979 ../../../components/ble/library\libfr8010h_stack.a(patch_No_MD_bit.o)
+ .debug_str     0x00022c75     0x10b4 ../../../components/ble/library\libfr8010h_stack.a(patch_task.o)
+ .debug_str     0x00022c75      0xbc6 ../../../components/ble/library\libfr8010h_stack.a(rwble_hl.o)
+ .debug_str     0x00022c75     0x242a ../../../components/ble/library\libfr8010h_stack.a(prf.o)
+ .debug_str     0x00022c75     0x1223 ../../../components/ble/library\libfr8010h_stack.a(l2cm.o)
+ .debug_str     0x00022c75     0x3786 ../../../components/ble/library\libfr8010h_stack.a(l2cc.o)
+ .debug_str     0x00022c75     0x2845 ../../../components/ble/library\libfr8010h_stack.a(l2cc_lecb.o)
+ .debug_str     0x00022c75     0x3da8 ../../../components/ble/library\libfr8010h_stack.a(l2cc_pdu.o)
+ .debug_str     0x00022c75     0x457f ../../../components/ble/library\libfr8010h_stack.a(l2cc_task.o)
+ .debug_str     0x00022c75     0x45e5 ../../../components/ble/library\libfr8010h_stack.a(gattm.o)
+ .debug_str     0x00022c75     0x1509 ../../../components/ble/library\libfr8010h_stack.a(gattm_task.o)
+ .debug_str     0x00022c75     0x2cd5 ../../../components/ble/library\libfr8010h_stack.a(gattc.o)
+ .debug_str     0x00022c75     0x6b55 ../../../components/ble/library\libfr8010h_stack.a(gattc_task.o)
+ .debug_str     0x00022c75     0x6911 ../../../components/ble/library\libfr8010h_stack.a(atts.o)
+ .debug_str     0x00022c75     0x41d8 ../../../components/ble/library\libfr8010h_stack.a(attm.o)
+ .debug_str     0x00022c75     0x3ffe ../../../components/ble/library\libfr8010h_stack.a(attm_db.o)
+ .debug_str     0x00022c75     0x3d2c ../../../components/ble/library\libfr8010h_stack.a(attc.o)
+ .debug_str     0x00022c75     0x6073 ../../../components/ble/library\libfr8010h_stack.a(gapm.o)
+ .debug_str     0x00022c75     0x5dd8 ../../../components/ble/library\libfr8010h_stack.a(gapm_actv.o)
+ .debug_str     0x00022c75     0x5768 ../../../components/ble/library\libfr8010h_stack.a(gapm_addr.o)
+ .debug_str     0x00022c75     0x70e6 ../../../components/ble/library\libfr8010h_stack.a(gapm_adv.o)
+ .debug_str     0x00022c75     0x63f2 ../../../components/ble/library\libfr8010h_stack.a(gapm_init.o)
+ .debug_str     0x00022c75     0x5b4c ../../../components/ble/library\libfr8010h_stack.a(gapm_per_sync.o)
+ .debug_str     0x00022c75     0x5b91 ../../../components/ble/library\libfr8010h_stack.a(gapm_scan.o)
+ .debug_str     0x00022c75     0x4a0f ../../../components/ble/library\libfr8010h_stack.a(gapm_task.o)
+ .debug_str     0x00022c75     0x3ff5 ../../../components/ble/library\libfr8010h_stack.a(gapc.o)
+ .debug_str     0x00022c75     0xb1f1 ../../../components/ble/library\libfr8010h_stack.a(gapc_task.o)
+ .debug_str     0x00022c75     0x1382 ../../../components/ble/library\libfr8010h_stack.a(flash.o)
+ .debug_str     0x00022c75     0x5bf7 ../../../components/ble/library\libfr8010h_stack.a(app.o)
+ .debug_str     0x00022c75      0xebe ../../../components/ble/library\libfr8010h_stack.a(app_prf.o)
+ .debug_str     0x00022c75     0x3cb4 ../../../components/ble/library\libfr8010h_stack.a(app_proj_event.o)
+ .debug_str     0x00022c75     0x3eae ../../../components/ble/library\libfr8010h_stack.a(app_sec.o)
+ .debug_str     0x00022c75     0x6172 ../../../components/ble/library\libfr8010h_stack.a(app_task.o)
+ .debug_str     0x00022c75     0x2450 ../../../components/ble/library\libfr8010h_stack.a(user_bond_manage.o)
+ .debug_str     0x00022c75     0x14e9 ../../../components/ble/library\libfr8010h_stack.a(os_timer.o)
+ .debug_str     0x00022c75     0x44df ../../../components/ble/library\libfr8010h_stack.a(m_al_task.o)
+ .debug_str     0x00022c75     0x4cc4 ../../../components/ble/library\libfr8010h_stack.a(mesh_api.o)
+ .debug_str     0x00022c75     0x554e ../../../components/ble/library\libfr8010h_stack.a(gatt_api.o)
+ .debug_str     0x00022c75     0x5692 ../../../components/ble/library\libfr8010h_stack.a(gap_api.o)
+ .debug_str     0x00022c75     0x2799 ../../../components/ble/library\libfr8010h_stack.a(prf_utils.o)
+ .debug_str     0x00022c75     0x3c63 ../../../components/ble/library\libfr8010h_stack.a(l2cc_sig.o)
+ .debug_str     0x00022c75     0x8294 ../../../components/ble/library\libfr8010h_stack.a(smpc.o)
+ .debug_str     0x00022c75     0x452c ../../../components/ble/library\libfr8010h_stack.a(smpc_api.o)
+ .debug_str     0x00022c75     0x10db ../../../components/ble/library\libfr8010h_stack.a(smpc_crypto.o)
+ .debug_str     0x00022c75     0x4f2f ../../../components/ble/library\libfr8010h_stack.a(smpc_util.o)
+ .debug_str     0x00022c75     0x789b ../../../components/ble/library\libfr8010h_stack.a(gapm_cfg.o)
+ .debug_str     0x00022c75     0x5cb2 ../../../components/ble/library\libfr8010h_stack.a(gapm_list.o)
+ .debug_str     0x00022c75     0x62b7 ../../../components/ble/library\libfr8010h_stack.a(gapm_smp.o)
+ .debug_str     0x00022c75     0x797b ../../../components/ble/library\libfr8010h_stack.a(gapc_hci.o)
+ .debug_str     0x00022c75     0x3b13 ../../../components/ble/library\libfr8010h_stack.a(gapc_sig.o)
+ .debug_str     0x00022c75     0x41da ../../../components/ble/library\libfr8010h_stack.a(app_conn.o)
+ .debug_str     0x00022c75      0x9eb ../../../components/ble/library\libfr8010h_stack.a(os_msg_q.o)
+ .debug_str     0x00022c75      0xf9f ../../../components/ble/library\libfr8010h_stack.a(os_task.o)
+ .debug_str     0x00022c75     0x4216 ../../../components/ble/library\libfr8010h_stack.a(m_al_scan.o)
 
 .debug_loc      0x00000000    0x2a5b2
  *(.debug_loc)
@@ -9445,72 +9471,72 @@ OUTPUT(build/d20_smartwatch.out elf32-littlearm)
 LOAD linker stubs
 
 .debug_loclists
-                0x00000000     0x6482
+                0x00000000     0xb95e
  .debug_loclists
                 0x00000000      0x35b build/d20_smartwatch/app.c.o
  .debug_loclists
                 0x0000035b      0x60e build/d20_smartwatch/display.c.o
  .debug_loclists
-                0x00000969     0x3878 build/d20_smartwatch/gfx.c.o
+                0x00000969     0x8d54 build/d20_smartwatch/gfx.c.o
  .debug_loclists
-                0x000041e1       0x29 build/d20_smartwatch/proj_main.c.o
+                0x000096bd       0x29 build/d20_smartwatch/proj_main.c.o
  .debug_loclists
-                0x0000420a      0x19b build/d20_smartwatch/syscalls.c.o
+                0x000096e6      0x19b build/d20_smartwatch/syscalls.c.o
  .debug_loclists
-                0x000043a5       0xb3 build/d20_smartwatch/utils.c.o
+                0x00009881       0xb3 build/d20_smartwatch/utils.c.o
  .debug_loclists
-                0x00004458      0xa81 build/d20_smartwatch/driver_ssp.c.o
+                0x00009934      0xa81 build/d20_smartwatch/driver_ssp.c.o
  .debug_loclists
-                0x00004ed9      0x170 build/d20_smartwatch/driver_keyscan.c.o
+                0x0000a3b5      0x170 build/d20_smartwatch/driver_keyscan.c.o
  .debug_loclists
-                0x00005049      0x16f build/d20_smartwatch/driver_pmu_qdec.c.o
+                0x0000a525      0x16f build/d20_smartwatch/driver_pmu_qdec.c.o
  .debug_loclists
-                0x000051b8      0xa77 build/d20_smartwatch/driver_pmu.c.o
+                0x0000a694      0xa77 build/d20_smartwatch/driver_pmu.c.o
  .debug_loclists
-                0x00005c2f       0xb2 build/d20_smartwatch/driver_rtc.c.o
+                0x0000b10b       0xb2 build/d20_smartwatch/driver_rtc.c.o
  .debug_loclists
-                0x00005ce1       0x74 build/d20_smartwatch/driver_wdt.c.o
+                0x0000b1bd       0x74 build/d20_smartwatch/driver_wdt.c.o
  .debug_loclists
-                0x00005d55      0x313 build/d20_smartwatch/driver_efuse.c.o
+                0x0000b231      0x313 build/d20_smartwatch/driver_efuse.c.o
  .debug_loclists
-                0x00006068       0x4e build/d20_smartwatch/exception_handlers.c.o
+                0x0000b544       0x4e build/d20_smartwatch/exception_handlers.c.o
  .debug_loclists
-                0x000060b6      0x3cc build/d20_smartwatch/patch.c.o
+                0x0000b592      0x3cc build/d20_smartwatch/patch.c.o
 
 .debug_rnglists
-                0x00000000      0x9f1
+                0x00000000      0x9af
  .debug_rnglists
                 0x00000000       0xd1 build/d20_smartwatch/app.c.o
  .debug_rnglists
                 0x000000d1       0x8a build/d20_smartwatch/display.c.o
  .debug_rnglists
-                0x0000015b      0x3b9 build/d20_smartwatch/gfx.c.o
+                0x0000015b      0x377 build/d20_smartwatch/gfx.c.o
  .debug_rnglists
-                0x00000514       0x32 build/d20_smartwatch/proj_main.c.o
+                0x000004d2       0x32 build/d20_smartwatch/proj_main.c.o
  .debug_rnglists
-                0x00000546       0x49 build/d20_smartwatch/syscalls.c.o
+                0x00000504       0x49 build/d20_smartwatch/syscalls.c.o
  .debug_rnglists
-                0x0000058f       0x49 build/d20_smartwatch/utils.c.o
+                0x0000054d       0x49 build/d20_smartwatch/utils.c.o
  .debug_rnglists
-                0x000005d8       0xb7 build/d20_smartwatch/driver_ssp.c.o
+                0x00000596       0xb7 build/d20_smartwatch/driver_ssp.c.o
  .debug_rnglists
-                0x0000068f       0x61 build/d20_smartwatch/driver_keyscan.c.o
+                0x0000064d       0x61 build/d20_smartwatch/driver_keyscan.c.o
  .debug_rnglists
-                0x000006f0       0x55 build/d20_smartwatch/driver_pmu_qdec.c.o
+                0x000006ae       0x55 build/d20_smartwatch/driver_pmu_qdec.c.o
  .debug_rnglists
-                0x00000745       0xf6 build/d20_smartwatch/driver_pmu.c.o
+                0x00000703       0xf6 build/d20_smartwatch/driver_pmu.c.o
  .debug_rnglists
-                0x0000083b       0x2b build/d20_smartwatch/driver_rtc.c.o
+                0x000007f9       0x2b build/d20_smartwatch/driver_rtc.c.o
  .debug_rnglists
-                0x00000866       0x32 build/d20_smartwatch/driver_wdt.c.o
+                0x00000824       0x32 build/d20_smartwatch/driver_wdt.c.o
  .debug_rnglists
-                0x00000898       0x60 build/d20_smartwatch/driver_efuse.c.o
+                0x00000856       0x60 build/d20_smartwatch/driver_efuse.c.o
  .debug_rnglists
-                0x000008f8       0x5b build/d20_smartwatch/exception_handlers.c.o
+                0x000008b6       0x5b build/d20_smartwatch/exception_handlers.c.o
  .debug_rnglists
-                0x00000953       0x13 build/d20_smartwatch/app_boot_vectors.c.o
+                0x00000911       0x13 build/d20_smartwatch/app_boot_vectors.c.o
  .debug_rnglists
-                0x00000966       0x8b build/d20_smartwatch/patch.c.o
+                0x00000924       0x8b build/d20_smartwatch/patch.c.o
 
 .debug_ranges   0x00000000     0x54c8
  .debug_ranges  0x00000000      0x130 ../../../components/ble/library\libfr8010h_stack.a(entry.o)

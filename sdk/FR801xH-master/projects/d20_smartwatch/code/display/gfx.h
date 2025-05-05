@@ -63,9 +63,9 @@ void gfx_fill_circle(int16_t x0, int16_t y0, int16_t r, uint16_t color);
 void gfx_draw_circle_helper(int16_t x0, int16_t y0, int16_t r, uint8_t cornername, uint16_t color);
 void gfx_fill_circle_helper(int16_t x0, int16_t y0, int16_t r, uint8_t cornername, int16_t delta, uint16_t color);
 
-// Arc functions
-void gfx_draw_arc(int16_t x0, int16_t y0, int16_t r, int16_t start_angle, int16_t end_angle, uint16_t color);
-void gfx_fill_arc(int16_t x0, int16_t y0, int16_t r, int16_t start_angle, int16_t end_angle, uint16_t color);
+// Arc function
+void gfx_draw_arc(int16_t x0, int16_t y0, int16_t r, int16_t start_angle, int16_t end_angle, 
+                uint8_t thickness, uint16_t color);
 
 // Ellipse functions
 void gfx_draw_ellipse(int16_t x0, int16_t y0, int16_t rx, int16_t ry, uint16_t color);
